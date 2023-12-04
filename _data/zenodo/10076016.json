@@ -1,0 +1,276 @@
+{
+  "access": {
+    "embargo": {
+      "active": false,
+      "reason": null
+    },
+    "files": "public",
+    "record": "public",
+    "status": "open"
+  },
+  "created": "2023-11-28T10:03:50.943242+00:00",
+  "custom_fields": {},
+  "deletion_status": {
+    "is_deleted": false,
+    "status": "P"
+  },
+  "files": {
+    "count": 12,
+    "enabled": true,
+    "entries": {
+      "Belardinelli_Brancaccio_TMS_EEG_cleaning_pipelines.pdf": {
+        "checksum": "md5:0112434e4618185cae4ded46abbd6667",
+        "ext": "pdf",
+        "id": "75986dbe-f026-40e9-b5c9-d13d975247c2",
+        "key": "Belardinelli_Brancaccio_TMS_EEG_cleaning_pipelines.pdf",
+        "metadata": null,
+        "mimetype": "application/pdf",
+        "size": 5732641
+      },
+      "Buiatti_Frequency_tagging_EEG_development.pptx": {
+        "checksum": "md5:d0bfc16da03a98d0362d6a767f4e8dab",
+        "ext": "pptx",
+        "id": "c41f564b-89c0-4b13-b9ea-28d6759794fc",
+        "key": "Buiatti_Frequency_tagging_EEG_development.pptx",
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "size": 8922771
+      },
+      "Cantiani_Intro_infants_EEG.pdf": {
+        "checksum": "md5:be72b48b3a2f6e5735abc63c98c99696",
+        "ext": "pdf",
+        "id": "06e184be-8184-4af6-83d1-93357d31a665",
+        "key": "Cantiani_Intro_infants_EEG.pdf",
+        "metadata": null,
+        "mimetype": "application/pdf",
+        "size": 5844548
+      },
+      "Casarotto_Real_time_monitoring_TMS_evoked_potentials.pdf": {
+        "checksum": "md5:848e2b4cd38e6b5e342f938b8796712f",
+        "ext": "pdf",
+        "id": "c816ee11-1c71-4013-850c-6d1b7758bd15",
+        "key": "Casarotto_Real_time_monitoring_TMS_evoked_potentials.pdf",
+        "metadata": null,
+        "mimetype": "application/pdf",
+        "size": 14663232
+      },
+      "Conte_Developmental_approach_EEG_source_analysis.pdf": {
+        "checksum": "md5:a3b88a96e266cce48fdbc9e8cf69a910",
+        "ext": "pdf",
+        "id": "331e9a64-a4f9-44a8-83b7-76c449846f76",
+        "key": "Conte_Developmental_approach_EEG_source_analysis.pdf",
+        "metadata": null,
+        "mimetype": "application/pdf",
+        "size": 1803781
+      },
+      "Gervain_Neural_oscillations_speech_language.pdf": {
+        "checksum": "md5:56a2858fcc05a550db20230479dd607c",
+        "ext": "pdf",
+        "id": "21413e32-ba89-4305-bfad-daf5b1786c8e",
+        "key": "Gervain_Neural_oscillations_speech_language.pdf",
+        "metadata": null,
+        "mimetype": "application/pdf",
+        "size": 11503135
+      },
+      "Huber_Vitale_EEG_eye_tracking_integration.pdf": {
+        "checksum": "md5:6ea2c3ac43d774505cfe26f7f7216723",
+        "ext": "pdf",
+        "id": "c3646c29-2edb-4057-9da1-72680348034a",
+        "key": "Huber_Vitale_EEG_eye_tracking_integration.pdf",
+        "metadata": null,
+        "mimetype": "application/pdf",
+        "size": 28546059
+      },
+      "Piazza_Preprocessing_EEGLAB_1.pdf": {
+        "checksum": "md5:ef2bbfd7e236e904732b6ddf9897e25b",
+        "ext": "pdf",
+        "id": "6be82ee8-4695-43bf-a7a3-1f683f97ddab",
+        "key": "Piazza_Preprocessing_EEGLAB_1.pdf",
+        "metadata": null,
+        "mimetype": "application/pdf",
+        "size": 9893182
+      },
+      "Pisoni_Functional_connectivity_TMS_EEG_data.pdf": {
+        "checksum": "md5:58845f74fc3d8df07d2495604c44efcb",
+        "ext": "pdf",
+        "id": "f954c2b8-4743-4fd4-910b-4d7944496039",
+        "key": "Pisoni_Functional_connectivity_TMS_EEG_data.pdf",
+        "metadata": null,
+        "mimetype": "application/pdf",
+        "size": 7581165
+      },
+      "Porcaro_Preprocessing_EEGLAB_2.pptx": {
+        "checksum": "md5:ef9a0f61af50dfb0321a7b44f7475335",
+        "ext": "pptx",
+        "id": "93f4cfef-2781-47f5-8543-f8049a782dea",
+        "key": "Porcaro_Preprocessing_EEGLAB_2.pptx",
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "size": 4335805
+      },
+      "Sorrentino_Source_reconstruction_MEEG.pdf": {
+        "checksum": "md5:60fe3d392ac14f6aad259b81290862ed",
+        "ext": "pdf",
+        "id": "c5ae930e-a85c-4163-8709-2fc373db0d0e",
+        "key": "Sorrentino_Source_reconstruction_MEEG.pdf",
+        "metadata": null,
+        "mimetype": "application/pdf",
+        "size": 15654832
+      },
+      "VeluKumaravel_Artifact_removal_pipeline_newborn_EEG_data.pptx": {
+        "checksum": "md5:a3c2dd0f1e6fc1f56dacfe76ed7ed2d1",
+        "ext": "pptx",
+        "id": "c3c4f9a5-f77a-4b2a-a235-8fcc5d07fd4b",
+        "key": "VeluKumaravel_Artifact_removal_pipeline_newborn_EEG_data.pptx",
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "size": 9481162
+      }
+    },
+    "order": [],
+    "total_bytes": 123962313
+  },
+  "id": "10076016",
+  "is_draft": false,
+  "is_published": true,
+  "links": {
+    "access": "https://zenodo.org/api/records/10076016/access",
+    "access_links": "https://zenodo.org/api/records/10076016/access/links",
+    "access_request": "https://zenodo.org/api/records/10076016/access/request",
+    "access_users": "https://zenodo.org/api/records/10076016/access/users",
+    "archive": "https://zenodo.org/api/records/10076016/files-archive",
+    "archive_media": "https://zenodo.org/api/records/10076016/media-files-archive",
+    "communities": "https://zenodo.org/api/records/10076016/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/10076016/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.10076016",
+    "draft": "https://zenodo.org/api/records/10076016/draft",
+    "files": "https://zenodo.org/api/records/10076016/files",
+    "latest": "https://zenodo.org/api/records/10076016/versions/latest",
+    "latest_html": "https://zenodo.org/records/10076016/latest",
+    "media_files": "https://zenodo.org/api/records/10076016/media-files",
+    "parent": "https://zenodo.org/api/records/10076015",
+    "parent_doi": "https://zenodo.org/doi/10.5281/zenodo.10076015",
+    "parent_html": "https://zenodo.org/records/10076015",
+    "requests": "https://zenodo.org/api/records/10076016/requests",
+    "reserve_doi": "https://zenodo.org/api/records/10076016/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/10076016",
+    "self_doi": "https://zenodo.org/doi/10.5281/zenodo.10076016",
+    "self_html": "https://zenodo.org/records/10076016",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:10076016/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:10076016/sequence/default",
+    "versions": "https://zenodo.org/api/records/10076016/versions"
+  },
+  "media_files": {
+    "count": 0,
+    "enabled": false,
+    "entries": {},
+    "order": [],
+    "total_bytes": 0
+  },
+  "metadata": {
+    "creators": [
+      {
+        "person_or_org": {
+          "family_name": "Pascarella",
+          "given_name": "Annalisa",
+          "identifiers": [
+            {
+              "identifier": "0000-0001-8795-0815",
+              "scheme": "orcid"
+            }
+          ],
+          "name": "Pascarella, Annalisa",
+          "type": "personal"
+        }
+      }
+    ],
+    "description": "<p>These are the slides from the presentations of the Genova Garden's local program <a href=\"https://cuttinggardens2023.org/genova/\">https://cuttinggardens2023.org/genova/</a></p>",
+    "publication_date": "2023-11-06",
+    "publisher": "Zenodo",
+    "resource_type": {
+      "id": "presentation",
+      "title": {
+        "de": "Pr\u00e4sentation",
+        "en": "Presentation"
+      }
+    },
+    "rights": [
+      {
+        "description": {
+          "en": "The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited."
+        },
+        "icon": "cc-by-icon",
+        "id": "cc-by-4.0",
+        "props": {
+          "scheme": "spdx",
+          "url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+        },
+        "title": {
+          "en": "Creative Commons Attribution 4.0 International"
+        }
+      }
+    ],
+    "title": "CuttingGardens2023: Genova garden presentations"
+  },
+  "parent": {
+    "access": {
+      "owned_by": {
+        "user": 44065
+      },
+      "settings": {
+        "accept_conditions_text": null,
+        "allow_guest_requests": false,
+        "allow_user_requests": false,
+        "secret_link_expiration": 0
+      }
+    },
+    "communities": {
+      "default": "317e1002-36f6-4c89-b38f-84cbf2d0fd28",
+      "ids": [
+        "317e1002-36f6-4c89-b38f-84cbf2d0fd28"
+      ]
+    },
+    "id": "10076015",
+    "pids": {
+      "doi": {
+        "client": "datacite",
+        "identifier": "10.5281/zenodo.10076015",
+        "provider": "datacite"
+      }
+    }
+  },
+  "pids": {
+    "doi": {
+      "client": "datacite",
+      "identifier": "10.5281/zenodo.10076016",
+      "provider": "datacite"
+    },
+    "oai": {
+      "identifier": "oai:zenodo.org:10076016",
+      "provider": "oai"
+    }
+  },
+  "revision_id": 4,
+  "stats": {
+    "all_versions": {
+      "data_volume": 184253106.0,
+      "downloads": 30,
+      "unique_downloads": 14,
+      "unique_views": 24,
+      "views": 25
+    },
+    "this_version": {
+      "data_volume": 184253106.0,
+      "downloads": 30,
+      "unique_downloads": 14,
+      "unique_views": 24,
+      "views": 25
+    }
+  },
+  "status": "published",
+  "updated": "2023-11-28T10:03:51.377114+00:00",
+  "versions": {
+    "index": 1,
+    "is_latest": true
+  }
+}

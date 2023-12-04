@@ -1,0 +1,181 @@
+{
+  "access": {
+    "embargo": {
+      "active": false,
+      "reason": null
+    },
+    "files": "public",
+    "record": "public",
+    "status": "open"
+  },
+  "created": "2023-02-03T10:20:32.944936+00:00",
+  "custom_fields": {},
+  "deletion_status": {
+    "is_deleted": false,
+    "status": "P"
+  },
+  "files": {
+    "count": 1,
+    "enabled": true,
+    "entries": {
+      "mne_pratical_meeg_2022-main.zip": {
+        "checksum": "md5:c0e8b5c14c9fa56ebbbbbf22b8b89de1",
+        "ext": "zip",
+        "id": "b63bc9b8-7864-4160-8958-293f124c2e7d",
+        "key": "mne_pratical_meeg_2022-main.zip",
+        "metadata": null,
+        "mimetype": "application/zip",
+        "size": 2104131
+      }
+    },
+    "order": [],
+    "total_bytes": 2104131
+  },
+  "id": "7602381",
+  "is_draft": false,
+  "is_published": true,
+  "links": {
+    "access": "https://zenodo.org/api/records/7602381/access",
+    "access_links": "https://zenodo.org/api/records/7602381/access/links",
+    "access_request": "https://zenodo.org/api/records/7602381/access/request",
+    "access_users": "https://zenodo.org/api/records/7602381/access/users",
+    "archive": "https://zenodo.org/api/records/7602381/files-archive",
+    "archive_media": "https://zenodo.org/api/records/7602381/media-files-archive",
+    "communities": "https://zenodo.org/api/records/7602381/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/7602381/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.7602381",
+    "draft": "https://zenodo.org/api/records/7602381/draft",
+    "files": "https://zenodo.org/api/records/7602381/files",
+    "latest": "https://zenodo.org/api/records/7602381/versions/latest",
+    "latest_html": "https://zenodo.org/records/7602381/latest",
+    "media_files": "https://zenodo.org/api/records/7602381/media-files",
+    "parent": "https://zenodo.org/api/records/7516144",
+    "parent_doi": "https://zenodo.org/doi/10.5281/zenodo.7516144",
+    "parent_html": "https://zenodo.org/records/7516144",
+    "requests": "https://zenodo.org/api/records/7602381/requests",
+    "reserve_doi": "https://zenodo.org/api/records/7602381/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/7602381",
+    "self_doi": "https://zenodo.org/doi/10.5281/zenodo.7602381",
+    "self_html": "https://zenodo.org/records/7602381",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:7602381/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:7602381/sequence/default",
+    "versions": "https://zenodo.org/api/records/7602381/versions"
+  },
+  "media_files": {
+    "count": 0,
+    "enabled": false,
+    "entries": {},
+    "order": [],
+    "total_bytes": 0
+  },
+  "metadata": {
+    "contributors": [
+      {
+        "person_or_org": {
+          "family_name": "Natalie Schaworonkow",
+          "given_name": "Alexandra Corneyllie",
+          "name": "Natalie Schaworonkow, Alexandra Corneyllie",
+          "type": "personal"
+        },
+        "role": {
+          "id": "researcher",
+          "title": {
+            "de": "WissenschaftlerIn",
+            "en": "Researcher"
+          }
+        }
+      }
+    ],
+    "creators": [
+      {
+        "person_or_org": {
+          "family_name": "Britta Westner",
+          "name": "Britta Westner",
+          "type": "personal"
+        }
+      }
+    ],
+    "description": "<p>This tutorial was held at&nbsp;<a href=\"http://http//practicalmeeg2022.org/\">PracticalMEEG2022</a>. The hands-on part of this workshop is based on the Frontiers Research Topic&nbsp;<a href=\"https://www.frontiersin.org/research-topics/5158/from-raw-megeeg-to-publication-how-to-perform-megeeg-group-analysis-with-free-academic-software\">From raw MEG/EEG to publication</a>: a collection of articles processing the&nbsp;<a href=\"https://openneuro.org/datasets/ds000117\">same multimodal dataset</a>&nbsp;using different software environments. It presents the processing of one subject (sub-01) of this dataset (pruned version of the dataset available&nbsp;<a href=\"https://doi.org/10.5281/zenodo.7189460\">here</a>), following the processing pipeline described in the article&nbsp;<a href=\"https://www.frontiersin.org/articles/10.3389/fnins.2019.00076/full\">MEG/EEG Group Analysis With Brainstorm</a>, but using MNE-python toolbox.</p>\n\n<p>The original tutorial (<a href=\"https://github.com/agramfort/mne_pratical_meeg\">version 2019</a>) was made by A.Gramfort and D. Engeeman,<a href=\"https://github.com/britta-wstnr/mne_pratical_meeg_2022\"> remastered for 2022</a>&nbsp;by Britta Westner.</p>\n\n<p>This version uses<a href=\"https://mne.tools/stable/index.html\"> MNE-python v1.30</a>.</p>",
+    "publication_date": "2023-01-10",
+    "publisher": "Zenodo",
+    "resource_type": {
+      "id": "lesson",
+      "title": {
+        "de": "Unterrichtseinheit",
+        "en": "Lesson"
+      }
+    },
+    "rights": [
+      {
+        "description": {
+          "en": "The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited."
+        },
+        "icon": "cc-by-icon",
+        "id": "cc-by-4.0",
+        "props": {
+          "scheme": "spdx",
+          "url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+        },
+        "title": {
+          "en": "Creative Commons Attribution 4.0 International"
+        }
+      }
+    ],
+    "title": "PracticalMEEG2022: MNE-python hands-on tutorial"
+  },
+  "parent": {
+    "access": {
+      "owned_by": {
+        "user": 455522
+      }
+    },
+    "communities": {
+      "default": "317e1002-36f6-4c89-b38f-84cbf2d0fd28",
+      "ids": [
+        "317e1002-36f6-4c89-b38f-84cbf2d0fd28"
+      ]
+    },
+    "id": "7516144",
+    "pids": {
+      "doi": {
+        "client": "datacite",
+        "identifier": "10.5281/zenodo.7516144",
+        "provider": "datacite"
+      }
+    }
+  },
+  "pids": {
+    "doi": {
+      "client": "datacite",
+      "identifier": "10.5281/zenodo.7602381",
+      "provider": "datacite"
+    },
+    "oai": {
+      "identifier": "oai:zenodo.org:7602381",
+      "provider": "oai"
+    }
+  },
+  "revision_id": 1,
+  "stats": {
+    "all_versions": {
+      "data_volume": 94683423.0,
+      "downloads": 45,
+      "unique_downloads": 43,
+      "unique_views": 199,
+      "views": 229
+    },
+    "this_version": {
+      "data_volume": 65228061.0,
+      "downloads": 31,
+      "unique_downloads": 29,
+      "unique_views": 135,
+      "views": 158
+    }
+  },
+  "status": "published",
+  "updated": "2023-02-03T10:20:34.044389+00:00",
+  "versions": {
+    "index": 2,
+    "is_latest": true
+  }
+}
