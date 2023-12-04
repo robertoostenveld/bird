@@ -1,0 +1,69 @@
+Title: 'Dataset for: Alternative metrics, traditional problems? Assessing gendered
+  dynamics in the altmetrics of political science'
+Description: "Dataset and replication files for \"Alternative metrics, traditional\
+  \ problems? Assessing gendered dynamics in the altmetrics of political science\"\
+  , published in European Political Science (2023). More detailed information in the\
+  \ README file. Please refer to the methodology section of the published article\
+  \ and the altmetric.py command file annotations for details.\r\n\r\nThe abstract\
+  \ of the published article is below:\r\nAltmetrics are an emerging form of bibliometric\
+  \ measurement that capture the online dimension of scholarly exchange. Against the\
+  \ backdrop of both a higher education landscape increasingly focused on quantifying\
+  \ research productivity and impact, as well as literature emphasising the need to\
+  \ address gender bias in the discipline, we consider whether and how altmetrics\
+  \ (re)produce gendered dynamics in political science. Using a novel dataset on the\
+  \ Altmetric Attention Scores (AAS) of political science research, we investigate\
+  \ two questions: Do AAS vary by gender? And how do AAS relate to gendered social\
+  \ media dynamics? We find that AAS reproduce gendered dynamics found in disciplinary\
+  \ publication and citation practices. For example, journal articles authored exclusively\
+  \ by female scholars score 27% lower on average than exclusively male-authored outputs.\
+  \ However, men are also more likely to write articles with an AAS of zero. These\
+  \ patterns are shaped by the presence of high-scoring male “superstars” whose research\
+  \ attracts much online attention. Complementing existing scholarship, we show that\
+  \ the AAS closely overlaps with virality dynamics on Twitter. We suggest that these\
+  \ gendered dynamics may be hidden behind the seemingly neutral, technical character\
+  \ of altmetrics, which is worrisome where they are used to evaluate scholarship."
+CollectionIdentifier: ru.imr.gender_impact_altmetrics_dsc_517
+PersistentIdentifier: 10.34973/1atx-zt75
+PersistentURL: https://doi.org/10.34973/1atx-zt75
+ProjectIdentifier: gender_impact_altmetrics
+OrganisationalUnit: IMR
+Type: Data Sharing Collection
+PreservationTime: '10'
+State: Published
+Publisher: Radboud University
+DataUseAgreement: CC0-1.0
+EthicalApprovals: ''
+FreeKeywords:
+- [impact]
+- [' gender']
+- [' bibliometrics']
+- [' altmetrics']
+SFNKeywords: ['']
+MeSHKeywords: ['']
+Version: '1'
+AssociatedPublications: ''
+AssociatedData: ''
+AssociatedAnalysisTools: 'URL: https://www.python.org/; URL: https://github.com/kalimu/genderizeR'
+AssociatedPreregistrations: ''
+Authors:
+- ['Meibauer, G.']
+- [' Phull, K.']
+- [' Ciflikli, G.']
+- [' Alejandro, A.']
+Managers: ['Meibauer, G.M.']
+Contributors: ['']
+NumberOfFiles: '8'
+Size: '12211839'
+Quota: '5368709120'
+CreationDate: 18-Apr-2023 17:49:25
+LastUpdateDate: 18-Apr-2023 17:49:25
+EmbargoUntil: ''
+PublicationDate: 18-Apr-2023 17:49:25
+ArchivalDate: ''
+ViewersByDUA: '0'
+ViewersByManager: '0'
+Views: '1458'
+Downloads: '171'
+DataVolume: '194954247'
+Viewers: '134'
+Downloaders: '41'

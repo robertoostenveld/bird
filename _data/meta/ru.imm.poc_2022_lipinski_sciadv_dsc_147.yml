@@ -1,0 +1,55 @@
+Title: 2022 Lipinski Science Advances
+Description: Dataset for Biomolecular condensates can both accelerate and suppress
+  aggregation of α-synuclein
+CollectionIdentifier: ru.imm.poc_2022_lipinski_sciadv_dsc_147
+PersistentIdentifier: 10.34973/km3n-bx28
+PersistentURL: https://doi.org/10.34973/km3n-bx28
+ProjectIdentifier: poc_2022_lipinski_sciadv
+OrganisationalUnit: IMM
+Type: Data Sharing Collection
+PreservationTime: '10'
+State: Published
+Publisher: Radboud University
+DataUseAgreement: CC-BY-NC-ND-4.0
+EthicalApprovals: ''
+FreeKeywords:
+- [α-synuclein]
+- [' protein']
+- [' microscopy']
+- [' liquid-liquid phase separation']
+- [' biomolecular condensate']
+- [' amyloid']
+SFNKeywords: ['']
+MeSHKeywords: ['']
+Version: '1'
+AssociatedPublications: ''
+AssociatedData: ''
+AssociatedAnalysisTools: ''
+AssociatedPreregistrations: ''
+Authors:
+- [Wojciech P. Lipiński]
+- [' Brent S. Visser']
+- [' Irina Robu']
+- [' Mohammad A. A. Fakhree']
+- [' Saskia Lindhoud']
+- [' Mireille M. A. E. Claessens']
+- [' Evan Spruijt']
+Managers:
+- [Evan Spruijt]
+- [' Wojciech P. Lipiński']
+Contributors: ['']
+NumberOfFiles: '192'
+Size: '102988351'
+Quota: '10737418240'
+CreationDate: 13-Oct-2022 20:29:57
+LastUpdateDate: 13-Oct-2022 20:29:57
+EmbargoUntil: ''
+PublicationDate: 13-Oct-2022 20:29:57
+ArchivalDate: ''
+ViewersByDUA: '0'
+ViewersByManager: '0'
+Views: '511'
+Downloads: '4286'
+DataVolume: '1716103103'
+Viewers: '101'
+Downloaders: '98'

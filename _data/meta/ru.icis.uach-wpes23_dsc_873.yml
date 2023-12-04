@@ -1,0 +1,47 @@
+Title: 'Unveiling the Impact of User-Agent Reduction and Client Hints: A Measurement
+  Study (WPES''23)'
+Description: |-
+  In recent years, browsers reduced the identifying information in user-agent strings to enhance user privacy. However, Chrome has also introduced high-entropy user-agent client hints (UA-CH) and new JavaScript API to provide access to specific browser details. The study assesses the impact of these changes on the top 100,000 websites by using an instrumented crawler to measure access to high-entropy browser features via UA-CH HTTP headers and the JavaScript API. It also investigates whether tracking, advertising, and browser fingerprinting scripts have started using these new client hints and the JavaScript API.
+
+
+  By Asuman Senol and Gunes Acar. In Proceedings of the 22nd Workshop on Privacy in the Electronic Society.
+CollectionIdentifier: ru.icis.uach-wpes23_dsc_873
+PersistentIdentifier: 10.34973/86ks-gf89
+PersistentURL: https://doi.org/10.34973/86ks-gf89
+ProjectIdentifier: uach-wpes23
+OrganisationalUnit: ICIS
+Type: Data Sharing Collection
+PreservationTime: '10'
+State: Published
+Publisher: Radboud University
+DataUseAgreement: CC0-1.0
+EthicalApprovals: ''
+FreeKeywords: ['user-agent, browsers, javascript, online tracking, privacy, browser
+    fingerprinting']
+SFNKeywords: ['']
+MeSHKeywords: ['']
+Version: '1'
+AssociatedPublications: ''
+AssociatedData: ''
+AssociatedAnalysisTools: ''
+AssociatedPreregistrations: ''
+Authors:
+- ['Acar, Gunes']
+- [' Senol, A.']
+Managers: ['Acar, Gunes']
+Contributors: ['']
+NumberOfFiles: '6'
+Size: '21570613845'
+Quota: '32212254720'
+CreationDate: 27-Nov-2023 17:02:09
+LastUpdateDate: 27-Nov-2023 17:02:09
+EmbargoUntil: ''
+PublicationDate: 27-Nov-2023 17:02:09
+ArchivalDate: ''
+ViewersByDUA: '0'
+ViewersByManager: '0'
+Views: '14'
+Downloads: '20'
+DataVolume: '43141283634'
+Viewers: '8'
+Downloaders: '3'

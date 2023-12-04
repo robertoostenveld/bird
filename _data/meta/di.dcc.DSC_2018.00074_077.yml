@@ -1,0 +1,62 @@
+Title: Concurrent analysis of white matter bundles and grey matter networks in the
+  chimpanzee
+Description: "Understanding the phylogeny of the human brain requires an appreciation\
+  \ of brain organization of our closest animal relatives.\r\nNeuroimaging tools such\
+  \ as magnetic resonance imaging (MRI) allow us to study whole-brain organization\
+  \ in species which\r\ncan otherwise not be studied. Here, we used diffusion MRI\
+  \ to reconstruct the connections of the cortical hemispheres of the\r\nchimpanzee.\
+  \ This allowed us to perform an exploratory analysis of the grey matter structures\
+  \ of the chimpanzee cerebral\r\ncortex and their underlying white matter connectivity\
+  \ profiles. We identified a number of networks that strongly resemble\r\nthose found\
+  \ in other primates, including the corticospinal system, limbic connections through\
+  \ the cingulum bundle and fornix,\r\nand occipital–temporal and temporal–frontal\
+  \ systems. Notably, chimpanzee temporal cortex showed a strong resemblance\r\nto\
+  \ that of the human brain, providing some insight into the specialization of the\
+  \ two species’ shared lineage."
+CollectionIdentifier: di.dcc.DSC_2018.00074_077
+PersistentIdentifier: 10.34973/2q70-sb66
+PersistentURL: https://doi.org/10.34973/2q70-sb66
+ProjectIdentifier: '2018.00074'
+OrganisationalUnit: DCC
+Type: Data Sharing Collection
+PreservationTime: '10'
+State: Published
+Publisher: Radboud University
+DataUseAgreement: CC-BY-NC-ND-4.0
+EthicalApprovals: ''
+FreeKeywords:
+- [great ape]
+- [' connectivity']
+- [' Brain organization']
+SFNKeywords: ['']
+MeSHKeywords: ['']
+Version: '1'
+AssociatedPublications: 'PMID: 30569281'
+AssociatedData: ''
+AssociatedAnalysisTools: ''
+AssociatedPreregistrations: ''
+Authors:
+- ['Mars, R.B.']
+- [' D Folloni']
+- [' J O’Muircheartaigh']
+- [' L Li']
+- [' MF Glasser']
+- [' S Jbabdi']
+- [' Bryant, K.L.']
+Managers: ['Mars, R.B.']
+Contributors: ['Bryant, K.L.']
+NumberOfFiles: '22'
+Size: '86931452'
+Quota: '167503724544'
+CreationDate: 11-Jan-2019 13:31:11
+LastUpdateDate: 08-Oct-2021 12:00:07
+EmbargoUntil: 11-Jan-2019 13:31:11
+PublicationDate: 11-Jan-2019 13:31:11
+ArchivalDate: ''
+ViewersByDUA: '0'
+ViewersByManager: '0'
+Views: '455'
+Downloads: '221'
+DataVolume: '729155977'
+Viewers: '254'
+Downloaders: '45'

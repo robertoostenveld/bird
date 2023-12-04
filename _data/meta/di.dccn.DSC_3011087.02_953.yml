@@ -1,0 +1,70 @@
+Title: Neural tracking of speech envelope does not unequivocally reflect intelligibility
+Description: 'During listening, brain activity tracks the rhythmic structures of speech
+  signals. Here, we directly dissociated the contribution of neural envelope tracking
+  in the processing of speech acoustic cues from that related to linguistic processing.
+  We examined the neural changes associated with the comprehension of Noise-Vocoded
+  (NV) speech using magnetoencephalography (MEG). Participants listened to NV sentences
+  in a 3-phase training paradigm: (1) pre-training, where NV stimuli were barely comprehended,
+  (2) training with exposure of the original clear version of speech stimulus, and
+  (3) post-training, where the same stimuli gained intelligibility from the training
+  phase. Using this paradigm, we tested if the neural responses of a speech signal
+  was modulated by its intelligibility without any change in its acoustic structure.
+  To test the influence of spectral degradation on neural envelope tracking independently
+  of training, participants listened to two types of NV sentences (4-band and 2-band
+  NV speech), but were only trained to understand 4-band NV speech. Significant changes
+  in neural tracking were observed in the delta range in relation to the acoustic
+  degradation of speech. However, we failed to find a direct effect of intelligibility
+  on the neural tracking of speech envelope in both theta and delta ranges, in both
+  auditory regions-of-interest and whole-brain sensor-space analyses. This suggests
+  that acoustics greatly influence the neural tracking response to speech envelope,
+  and that caution needs to be taken when choosing the control signals for speech-brain
+  tracking analyses, considering that a slight change in acoustic parameters can have
+  strong effects on the neural tracking response.'
+CollectionIdentifier: di.dccn.DSC_3011087.02_953
+PersistentIdentifier: 10.34973/qksk-6x25
+PersistentURL: https://doi.org/10.34973/qksk-6x25
+ProjectIdentifier: '3011087.02'
+OrganisationalUnit: DCCN
+Type: Data Sharing Collection
+PreservationTime: '10'
+State: Published
+Publisher: Radboud University
+DataUseAgreement: CC0-1.0
+EthicalApprovals: ''
+FreeKeywords:
+- [neural oscillations]
+- [' language']
+- [' entrainment']
+- [' Speech']
+- [' MEG']
+SFNKeywords: ['']
+MeSHKeywords: ['']
+Version: '1'
+AssociatedPublications: 'DOI: 10.1016/j.neuroimage.2023.120040'
+AssociatedData: ''
+AssociatedAnalysisTools: ''
+AssociatedPreregistrations: ''
+Authors:
+- [Anne Kosem]
+- [' Dai, B. (Bohan)']
+- [' McQueen, J.M. (James)']
+- [' Hagoort, P. (Peter)']
+Managers:
+- ['Kösem, A.V.M.']
+- [' Hagoort, P.']
+Contributors: [Anne Kosem]
+NumberOfFiles: '560'
+Size: '171539080522'
+Quota: '526133493760'
+CreationDate: 16-Oct-2023 11:58:29
+LastUpdateDate: 16-Oct-2023 11:58:29
+EmbargoUntil: ''
+PublicationDate: 16-Oct-2023 11:58:29
+ArchivalDate: ''
+ViewersByDUA: '0'
+ViewersByManager: '0'
+Views: '176'
+Downloads: '0'
+DataVolume: '0'
+Viewers: '16'
+Downloaders: '0'

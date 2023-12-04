@@ -1,0 +1,67 @@
+Title: Rap, Nat. Astron.
+Description: "This dataset contains data for the article \"Low-temperature nitrogen-bearing\
+  \ polycyclic aromatic hydrocarbon formation routes validated by infrared spectroscopy\"\
+  . It includes the source data of several figures, i.e. the recorded experimental\
+  \ and calculated IR spectra, and the results of quantum-chemical calculations as\
+  \ log files.\r\nAbstract:\r\nPolycyclic aromatic hydrocarbons (PAHs) are abundant\
+  \ in many regions of the Universe, representing a major reservoir for cosmic\r\n\
+  carbon. However, their formation pathways in cold regions of space remain elusive.\
+  \ Recent astronomical detections show\r\nthat current astrochemical models drastically\
+  \ underestimate the abundance of aromatic molecules and suggest that additional\r\
+  \nformation pathways such as ion–molecule reactions need to be considered. Here\
+  \ we reveal efficient low-temperature formation\r\npathways towards nitrogen-containing\
+  \ polycyclic aromatic hydrocarbons via exothermic pyridine+ and acetylene ion–molecule\r\
+  \nreactions. The experimental approach combines kinetics with spectroscopic probing\
+  \ and unambiguously identifies key reaction\r\nintermediates and the final nitrogen-containing\
+  \ polycyclic aromatic hydrocarbon product quinolizinium+, a structure that is\r\n\
+  thought to contribute to the 6.2 μm interstellar emission feature. This study not\
+  \ only provides competing formation pathways\r\nrelevant in the chemistry of the\
+  \ interstellar medium and Titan's atmosphere, but also delivers information to verify\
+  \ in-silico\r\npotential energy surfaces, astrochemical models and infrared observations."
+CollectionIdentifier: ru.hfml-felix.pub-bruenken-2022-pyridine-kinetics_dsc_896
+PersistentIdentifier: 10.34973/m9mn-d172
+PersistentURL: https://doi.org/10.34973/m9mn-d172
+ProjectIdentifier: pub-bruenken-2022-pyridine-kinetics
+OrganisationalUnit: HFML-FELIX
+Type: Data Sharing Collection
+PreservationTime: '10'
+State: Published
+Publisher: Radboud University
+DataUseAgreement: CC-BY-NC-ND-4.0
+EthicalApprovals: ''
+FreeKeywords:
+- [spectroscopy]
+- [' reaction kinetics']
+- [' astrochemistry']
+- [' PAH']
+- [' FELIX']
+SFNKeywords: ['']
+MeSHKeywords: ['']
+Version: '1'
+AssociatedPublications: 'DOI: 10.1038/s41550-022-01713-z'
+AssociatedData: ''
+AssociatedAnalysisTools: 'URL: https://github.com/aravindhnivas/FELion_GUI3'
+AssociatedPreregistrations: ''
+Authors:
+- ['Rap, D.B.']
+- [' Johanna G.M. Schrauwen']
+- [' Aravindh N. Marimuthu']
+- [' Britta Redlich']
+- [' Brünken, S.']
+Managers: ['Brünken, S.']
+Contributors: ['Rap, D.B.']
+NumberOfFiles: '45'
+Size: '18081822'
+Quota: '10737418240'
+CreationDate: 20-Jun-2022 18:22:07
+LastUpdateDate: 20-Jun-2022 18:22:07
+EmbargoUntil: ''
+PublicationDate: 20-Jun-2022 18:22:07
+ArchivalDate: ''
+ViewersByDUA: '0'
+ViewersByManager: '0'
+Views: '333'
+Downloads: '1007'
+DataVolume: '324076696'
+Viewers: '203'
+Downloaders: '79'

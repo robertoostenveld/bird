@@ -1,0 +1,65 @@
+Title: Characterization of auditory steady state brain responses in time, frequency
+  and space
+Description: "The auditory steady state evoked response (ASSR) is a robust and frequently\
+  \ utilized phenomenon in psychophysiological research. It reflects the auditory\
+  \ cortex excitability as a response of a frequency modulated auditory stimulus.\
+  \ The present report aims to provide an example of a group analysis in 29 healthy\
+  \ human participants in the context of an ASSR paradigm. First, analysis in the\
+  \ time domain will demonstrate descriptive evaluation and statistical control of\
+  \ auditory event-related potentials (ERPs). Second, frequency analysis is applied\
+  \ to describe the spectral characteristics of these ERPs followed by group level\
+  \ statistics in the frequency domain. Third, time and frequency domain data approaches\
+  \ are combined in order to describe the temporal and spectral development of the\
+  \ ASSR. Finally, an example of analysis in source space is applied in order to characterize\
+  \ the primary neural generators of the ASSR response.\r\n\r\nThis collection contains\
+  \ all data and analysis scripts to reproduce the results presented in the manuscript."
+CollectionIdentifier: di.dccn.DSC_3015000.00_810
+PersistentIdentifier: 10.34973/fkgz-8d22
+PersistentURL: https://doi.org/10.34973/fkgz-8d22
+ProjectIdentifier: '3015000.00'
+OrganisationalUnit: DCCN
+Type: Data Sharing Collection
+PreservationTime: '10'
+State: Published
+Publisher: Radboud University
+DataUseAgreement: ODC-BY-1.0
+EthicalApprovals: ''
+FreeKeywords:
+- [reproducible]
+- [' Open Science']
+- [' FieldTrip']
+- [' EEG']
+- [' ASSR']
+SFNKeywords: [G.05]
+MeSHKeywords:
+- [E01.370.376.300.150]
+- [' E01.370.376.300']
+- [' A08.186.211']
+Version: '2'
+AssociatedPublications: 'DOI: 10.3389/fnins.2018.00711'
+AssociatedData: ''
+AssociatedAnalysisTools: ''
+AssociatedPreregistrations: ''
+Authors:
+- [Tzvetan Popov]
+- [' Oostenveld, R.']
+- [' Jan-Mathijs Schoffelen']
+Managers:
+- ['Schoffelen, J.M.']
+- [' Oostenveld, R.']
+Contributors: ['']
+NumberOfFiles: '158'
+Size: '28426332753'
+Quota: '32212254720'
+CreationDate: 25-Sep-2018 10:56:07
+LastUpdateDate: 08-Oct-2021 12:04:35
+EmbargoUntil: 25-Sep-2018 10:56:07
+PublicationDate: 25-Sep-2018 10:56:07
+ArchivalDate: ''
+ViewersByDUA: '109'
+ViewersByManager: '0'
+Views: '5211'
+Downloads: '18887'
+DataVolume: '4392295614563'
+Viewers: '3972'
+Downloaders: '1368'

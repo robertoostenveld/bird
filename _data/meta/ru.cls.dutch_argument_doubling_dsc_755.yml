@@ -1,0 +1,64 @@
+Title: Dutch argument doubling
+Description: Argument doubling, also known as (contrastive) left-dislocation, is common
+  in spoken Dutch, but it is unclear exactly what triggers it. Earlier proposals in
+  the literature showed that the construction is not used for marking contrast, and
+  suggested it is used for marking shifted topics instead. However, the results from
+  a Spoken Dutch Corpus study on argument doubling with proper nouns demonstrate that
+  topic shift does not adequately characterize the construction’s function either.
+  Further examination of our corpus data shows that at least for proper nouns, Dutch
+  argument doubling mostly occurs when a new referent is introduced into the discourse,
+  but that this referent does not necessarily become prominent in the discourse. We
+  hypothesize that argument doubling is a way of giving speakers and/or hearers some
+  extra time to establish and/or process the new discourse referent in the discourse,
+  regardless of whether it will become a discourse-topic after its introduction.
+CollectionIdentifier: ru.cls.dutch_argument_doubling_dsc_755
+PersistentIdentifier: 10.34973/spe7-1542
+PersistentURL: https://doi.org/10.34973/spe7-1542
+ProjectIdentifier: dutch_argument_doubling
+OrganisationalUnit: CLS
+Type: Data Sharing Collection
+PreservationTime: '10'
+State: Published
+Publisher: Radboud University
+DataUseAgreement: CC-BY-NC-SA-4.0
+EthicalApprovals: ''
+FreeKeywords:
+- [topic-shift]
+- [' spoken Dutch']
+- [' proper nouns']
+- [' prominence']
+- [' left dislocation']
+SFNKeywords: ['']
+MeSHKeywords: ['']
+Version: '1'
+AssociatedPublications: 'DOI: 10.1075/avt.00090.wet'
+AssociatedData: ''
+AssociatedAnalysisTools: ''
+AssociatedPreregistrations: ''
+Authors:
+- ['Wets, I.I. (Imke)']
+- [' Suijkerbuijk, M.J.P.F. (Michelle)']
+- [' Hartog, M.M.J. den']
+- [' Hoop, H. de']
+Managers:
+- ['Hoop, H. de']
+- [' Heuvel, H. van den']
+Contributors:
+- ['Wets, I.I.']
+- [' Hartog, M.M.J. den']
+- [' Suijkerbuijk, M.J.P.F.']
+NumberOfFiles: '11'
+Size: '4316609'
+Quota: '5368709120'
+CreationDate: 09-Nov-2023 21:09:55
+LastUpdateDate: 09-Nov-2023 21:09:55
+EmbargoUntil: ''
+PublicationDate: 09-Nov-2023 21:09:55
+ArchivalDate: ''
+ViewersByDUA: '0'
+ViewersByManager: '0'
+Views: '135'
+Downloads: '34'
+DataVolume: '8743741'
+Viewers: '11'
+Downloaders: '8'

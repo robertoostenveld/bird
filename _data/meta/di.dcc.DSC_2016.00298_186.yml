@@ -1,0 +1,66 @@
+Title: Vestibular modulation of visuomotor feedback gains in reaching
+Description: Humans quickly and sophisticatedly correct their movements in response
+  to changes in the world, such as when reaching to a target that abruptly changes
+  its location. The vigor of these movement corrections is time-dependent, increasing
+  if the time left to make the correction decreases, which can be explained by Optimal
+  feedback control (OFC) theory as an increase of optimal feedback gains. It is unknown
+  if corrections for changes in the world are as sophisticated under full-body motion.
+  For successful visually-probed motor corrections during full-body motion not only
+  the motion of the hand relative to the body needs to be taken into account, also
+  the motion of the hand in the world should be considered, because their relative
+  positions are changing. Here, in two experiments, we show that visuomotor feedback
+  corrections in response to target jumps are more vigorous for faster passive full-body
+  translational acceleration than for slower acceleration, suggesting that vestibular
+  information modulates visuomotor feedback gains. Interestingly, these corrections
+  do not demonstrate the time-dependent characteristics that body-stationary visuomotor
+  feedback gains typically show, such that an Optimal feedback control model fell
+  short to explain them. We further show that the vigor of corrections generally decreased
+  over the course of trials within the experiment, as if the sensorimotor system adjusted
+  its gains when learning to integrate the vestibular input into hand motor control.
+CollectionIdentifier: di.dcc.DSC_2016.00298_186
+PersistentIdentifier: 10.34973/9b0p-r488
+PersistentURL: https://doi.org/10.34973/9b0p-r488
+ProjectIdentifier: '2016.00298'
+OrganisationalUnit: DCC
+Type: Data Sharing Collection
+PreservationTime: '10'
+State: Published
+Publisher: Radboud University
+DataUseAgreement: CC-BY-4.0
+EthicalApprovals: ''
+FreeKeywords:
+- [vestibular system]
+- [' sensorimotor integration']
+- [' self-motion']
+- [' online feedback']
+- [' motor control']
+SFNKeywords: ['']
+MeSHKeywords: ['']
+Version: '1'
+AssociatedPublications: ''
+AssociatedData: ''
+AssociatedAnalysisTools: ''
+AssociatedPreregistrations: ''
+Authors:
+- ['Oostwoud Wijdenes, L.']
+- [' Robert J. van Beers']
+- [' Medendorp, W.P.']
+Managers:
+- ['Oostwoud Wijdenes, L.']
+- [' Medendorp, W.P.']
+Contributors: ['']
+NumberOfFiles: '354'
+Size: '4253500165'
+Quota: '21474836480'
+CreationDate: 08-Jul-2019 16:55:22
+LastUpdateDate: 08-Oct-2021 11:57:08
+EmbargoUntil: 08-Jul-2019 16:55:22
+PublicationDate: 08-Jul-2019 17:08:49
+ArchivalDate: ''
+ViewersByDUA: '0'
+ViewersByManager: '0'
+Views: '331'
+Downloads: '5355'
+DataVolume: '52594137826'
+Viewers: '196'
+Downloaders: '141'

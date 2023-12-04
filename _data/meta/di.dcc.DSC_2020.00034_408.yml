@@ -1,0 +1,62 @@
+Title: PBB - Diffusion MRI
+Description: Large-scale comparative neuroscience requires data from many species
+  and, ideally, at multiple levels of description. Here, we contribute to this endeavor
+  by presenting diffusion and structural MRI data from eight primate species that
+  have not or rarely been described in the literature. The selected samples from the
+  Primate Brain Bank cover a prosimian, New and Old World monkeys, and a great ape.
+  We present preliminary labelling of the cortical sulci and tractography of the optic
+  radiation, dorsal part of the cingulum bundle, and dorsal parietal-frontal and ventral
+  temporal-frontal longitudinal white matter tracts. Both dorsal and ventral association
+  fiber systems could be observed in all samples, with the dorsal tracts occupying
+  much less relative volume in the prosimian than in other species. We discuss the
+  results in the context of known primate specializations and present hypotheses for
+  further research. All data and results are presented here and available online as
+  a resource for the scientific community.
+CollectionIdentifier: di.dcc.DSC_2020.00034_408
+PersistentIdentifier: 10.34973/rd6s-0n02
+PersistentURL: https://doi.org/10.34973/rd6s-0n02
+ProjectIdentifier: '2020.00034'
+OrganisationalUnit: DCC
+Type: Data Sharing Collection
+PreservationTime: '10'
+State: Published
+Publisher: Radboud University
+DataUseAgreement: CC-BY-NC-SA-4.0
+EthicalApprovals: ''
+FreeKeywords: [comparative]
+SFNKeywords: ['']
+MeSHKeywords: ['']
+Version: '2'
+AssociatedPublications: 'DOI: 10.1007/s00429-021-02268-x'
+AssociatedData: ''
+AssociatedAnalysisTools: ''
+AssociatedPreregistrations: ''
+Authors:
+- ['Bryant, K.L.']
+- [' Dirk Jan Ardesch']
+- [' Lea Roumazeilles']
+- [' Lianne H. Scholtens']
+- [' Alexandre A. Khrapitchev']
+- [' Benjamin C. Tendler']
+- [' Wenchuan Wu']
+- [' Karla L. Miller']
+- [' Jerome Sallet']
+- [' Martijn P. Van den Heuvel']
+- [' Mars, R.B.']
+Managers: ['Mars, R.B.']
+Contributors: ['']
+NumberOfFiles: '2018'
+Size: '2809786927'
+Quota: '209379655680'
+CreationDate: 21-May-2021 13:08:07
+LastUpdateDate: 08-Oct-2021 12:01:58
+EmbargoUntil: ''
+PublicationDate: 21-May-2021 13:08:07
+ArchivalDate: ''
+ViewersByDUA: '0'
+ViewersByManager: '0'
+Views: '439'
+Downloads: '9120'
+DataVolume: '11225011987'
+Viewers: '263'
+Downloaders: '193'

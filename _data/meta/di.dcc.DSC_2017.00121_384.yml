@@ -1,0 +1,62 @@
+Title: Panoramic Uncertainty in Vertical Perception
+Description: Judgments of the orientation of a visual line with respect to Earth vertical
+  are affected by panoramic visual cues. This is illustrated by the rod-and-frame
+  effect (RFE), the finding that the perceived orientation of a luminous rod is biased
+  by the orientation of a surrounding squared frame. In this study, we tested how
+  the uncertainty of frame orientation affects the RFE by asking upright or tilted
+  participants to psychometrically judge the orientation of a briefly flashed rod
+  contained within either a circular frame, a squared frame, or either of two intermediate
+  frame forms, called squircles, presented in various orientations. Results showed
+  a cyclical modulation of frame-induced bias across the range of the square and squircular
+  frame orientations. The magnitude of this bias increased with increasing squaredness
+  of the frame, as if the more unequivocal the orientation cues of the frame, the
+  larger the reliance on them for rod orientation judgments. These findings are explained
+  with a Bayesian optimal integration model in which participants flexibly weigh visual
+  panoramic cues, depending on their orientation reliability, and non-visual cues
+  in the perception of vertical.
+CollectionIdentifier: di.dcc.DSC_2017.00121_384
+PersistentIdentifier: 10.34973/kbzc-ng08
+PersistentURL: https://doi.org/10.34973/kbzc-ng08
+ProjectIdentifier: '2017.00121'
+OrganisationalUnit: DCC
+Type: Data Sharing Collection
+PreservationTime: '10'
+State: Published
+Publisher: Radboud University
+DataUseAgreement: CC-BY-SA-4.0
+EthicalApprovals: ''
+FreeKeywords:
+- [Vision]
+- [' Subjective Visual Vertical']
+- [' Bayesian']
+SFNKeywords:
+- [D.07]
+- [' D.03']
+MeSHKeywords: ['']
+Version: '1'
+AssociatedPublications: ''
+AssociatedData: ''
+AssociatedAnalysisTools: ''
+AssociatedPreregistrations: ''
+Authors:
+- [Janny Stapel]
+- [' Medendorp, W.P.']
+Managers:
+- ['Medendorp, W.P.']
+- [' Stapel, J.C.']
+Contributors: ['']
+NumberOfFiles: '27'
+Size: '2240868'
+Quota: '8589934592'
+CreationDate: 20-Oct-2021 07:22:35
+LastUpdateDate: 20-Oct-2021 07:22:35
+EmbargoUntil: ''
+PublicationDate: 20-Oct-2021 07:22:35
+ArchivalDate: ''
+ViewersByDUA: '0'
+ViewersByManager: '0'
+Views: '221'
+Downloads: '519'
+DataVolume: '43659108'
+Viewers: '88'
+Downloaders: '232'

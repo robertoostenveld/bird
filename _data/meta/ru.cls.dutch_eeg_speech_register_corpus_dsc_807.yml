@@ -1,0 +1,65 @@
+Title: The Dutch EEG Speech Register Corpus
+Description: 'The Dutch EEG Speech Register Corpus contains 207 hours of EEG recordings
+  from 48 participants listening to natural connected speech. The speech recordings
+  were sampled from spontaneous dialogues, news broadcasts and read-aloud stories,
+  and contain 50,277 word tokens per participant, time-locked to the EEG recordings.
+  We cleaned the data with a novel approach by training a convolutional neural network
+  artefact classifier on EEG recordings with manually labeled artefacts. We applied
+  the artefact classifier on all EEG recordings and manually checked all automatically
+  identified artefacts to ensure high data quality. Eye-related activity was removed
+  with independent component analysis. The EEG recordings (raw and cleaned), contain
+  1.5 million word epochs, are freely available (license: CC BY NC 4.0) and offer
+  research opportunities to investigate neural correlates of natural connected speech
+  processing.'
+CollectionIdentifier: ru.cls.dutch_eeg_speech_register_corpus_dsc_807
+PersistentIdentifier: 10.34973/97pv-jw72
+PersistentURL: https://doi.org/10.34973/97pv-jw72
+ProjectIdentifier: dutch_eeg_speech_register_corpus
+OrganisationalUnit: CLS
+Type: Data Sharing Collection
+PreservationTime: '10'
+State: Published
+Publisher: Radboud University
+DataUseAgreement: CC-BY-NC-4.0
+EthicalApprovals: ''
+FreeKeywords:
+- [Speech Registers]
+- [' Speech Perception']
+- [' Predictive Language Processing']
+- [' Phonological Mismatch Negativity']
+- [' N400']
+- [' ERP']
+- [' EEG']
+SFNKeywords: [F.01.m]
+MeSHKeywords:
+- [F02.694]
+- [' F02.463.593.071.875']
+Version: '1'
+AssociatedPublications: 'DOI: 10.21437/Interspeech.2019-2741; DOI: 10.1016/j.bandl.2022.105197'
+AssociatedData: ''
+AssociatedAnalysisTools: 'URL: https://github.com/martijnbentum/DESRC'
+AssociatedPreregistrations: ''
+Authors:
+- ['Bentum, M.']
+- [' Bosch, L.F.M. ten (Louis)']
+- [' van den Bosch, A.']
+- [' Ernestus, M.T.C.']
+Managers:
+- ['Heuvel, H. van den']
+- [' Bentum, M.']
+Contributors: ['']
+NumberOfFiles: '36505'
+Size: '121869063435'
+Quota: '134217728000'
+CreationDate: 25-Aug-2023 07:09:33
+LastUpdateDate: 25-Aug-2023 07:09:33
+EmbargoUntil: ''
+PublicationDate: 25-Aug-2023 07:09:33
+ArchivalDate: ''
+ViewersByDUA: '0'
+ViewersByManager: '3'
+Views: '326'
+Downloads: '163420'
+DataVolume: '426260391437'
+Viewers: '73'
+Downloaders: '471'

@@ -1,0 +1,59 @@
+Title: Magnetoencephalography recordings reveal the neural mechanisms of auditory
+  contributions to improved visual detection
+Description: 'Sounds enhance the detection of visual stimuli while concurrently biasing
+  an observer’s decisions. To investigate the neural mechanisms that underlie such
+  multisensory interactions, we decoded time-resolved Signal Detection Theory sensitivity
+  and criterion parameters from magneto-encephalographic recordings of participants
+  that performed a visual detection task. We found that sounds improved visual detection
+  sensitivity by enhancing the accumulation and maintenance of perceptual evidence
+  over time. Meanwhile, criterion decoding analyses revealed that sounds induced brain
+  activity patterns that resembled the patterns evoked by an actual visual stimulus.
+  These two complementary mechanisms of audiovisual interplay differed in terms of
+  their automaticity: Whereas the sound-induced enhancement in visual sensitivity
+  depended on participants being actively engaged in a detection task, we found that
+  sounds activated the visual cortex irrespective of task demands, potentially inducing
+  visual illusory percepts. These results challenge the classical assumption that
+  sound-induced increases in false alarms exclusively correspond to decision-level
+  biases.'
+CollectionIdentifier: di.dccn.DSC_3018029.06_752
+PersistentIdentifier: 10.34973/2m6r-4167
+PersistentURL: https://doi.org/10.34973/2m6r-4167
+ProjectIdentifier: '3018029.06'
+OrganisationalUnit: DCCN
+Type: Data Sharing Collection
+PreservationTime: '10'
+State: Published
+Publisher: Radboud University
+DataUseAgreement: CC0-1.0
+EthicalApprovals: ''
+FreeKeywords: ['vision, audiovisual, detection,  multisensory interaction']
+SFNKeywords: ['']
+MeSHKeywords: ['']
+Version: '1'
+AssociatedPublications: ''
+AssociatedData: ''
+AssociatedAnalysisTools: ''
+AssociatedPreregistrations: ''
+Authors:
+- ['Pérez Bellido, A.']
+- [' Spaak, E.']
+- [' Lange, F.P. de']
+Managers:
+- ['Pérez Bellido, A.']
+- [' Lange, F.P. de']
+Contributors: ['']
+NumberOfFiles: '4592'
+Size: '861455920829'
+Quota: '934155386880'
+CreationDate: 01-Dec-2022 13:50:42
+LastUpdateDate: 01-Dec-2022 13:50:42
+EmbargoUntil: ''
+PublicationDate: 01-Dec-2022 13:50:42
+ArchivalDate: ''
+ViewersByDUA: '0'
+ViewersByManager: '0'
+Views: '207'
+Downloads: '7915'
+DataVolume: '883325276922'
+Viewers: '88'
+Downloaders: '57'

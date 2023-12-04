@@ -1,0 +1,63 @@
+Title: Reading Minds, Reading Stories Data Set
+Description: "This data set consists of eye-tracking data and various data related\
+  \ to individual differences in social-cognitive abilities (self-reported trait empathy,\
+  \ emotional empathy, perspective-taking abilities, spontaneous mentalizing tendencies),\
+  \ personality traits (need for affect, need for cognition), and reading-related\
+  \ characteristics (print exposure, story world absorption, reading motivation) from\
+  \ 90 native speakers of Dutch who read a 5000-word non-fictional narrative that\
+  \ has been coded for various lexical characteristics (frequency, word length, POS),\
+  \ as well as the presence of viewpoint markers. \r\n\r\nThe data was collected to\
+  \ study the relationship between social-cognitive abilities and the linguistic processing\
+  \ of perceptual, cognitive, and emotional viewpoint markers, in the context of PhD\
+  \ research by Lynn Eekhof, at the Centre for Language Studies, Radboud University."
+CollectionIdentifier: ru.cls.reading_minds_reading_stories_data_set_dsc_293
+PersistentIdentifier: 10.34973/zb8x-xe75
+PersistentURL: https://doi.org/10.34973/zb8x-xe75
+ProjectIdentifier: reading_minds_reading_stories_data_set
+OrganisationalUnit: CLS
+Type: Data Sharing Collection
+PreservationTime: '10'
+State: Published
+Publisher: Radboud University
+DataUseAgreement: CC-BY-4.0
+EthicalApprovals: ''
+FreeKeywords:
+- [viewpoint]
+- [' theory of mind']
+- [' social cognition']
+- [' reading']
+- [' perspective']
+- [' narrative']
+- [' eye-tracking']
+- [' empathy']
+SFNKeywords: ['']
+MeSHKeywords: ['']
+Version: '1'
+AssociatedPublications: 'DOI: 10.3389/fpsyg.2021.698986'
+AssociatedData: ''
+AssociatedAnalysisTools: 'DOI: 10.16995/olh.483'
+AssociatedPreregistrations: ''
+Authors:
+- ['Eekhof, L.S.']
+- [' Willems, R.M.']
+Managers:
+- ['Willems, R.M.']
+- [' Krieken, K.W.M. van']
+- [' Heuvel, H. van den']
+- [' Eekhof, L.S.']
+Contributors: ['']
+NumberOfFiles: '12'
+Size: '843996452'
+Quota: '5368709120'
+CreationDate: 29-Aug-2022 13:29:35
+LastUpdateDate: 09-May-2023 15:52:40
+EmbargoUntil: ''
+PublicationDate: 29-Aug-2022 13:29:35
+ArchivalDate: ''
+ViewersByDUA: '0'
+ViewersByManager: '0'
+Views: '237'
+Downloads: '220'
+DataVolume: '3201228043'
+Viewers: '146'
+Downloaders: '92'

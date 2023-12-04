@@ -1,0 +1,57 @@
+Title: ViewPoint Identificaton Procedure Data Set
+Description: "This data set consists of the materials and analysis scripts that were\
+  \ used to develop the ViewPoint Identification Procedure, as reported in the following\
+  \ publication:\n\nEekhof, L. S., van Krieken, K., & Sanders, J. (2020). VPIP: A\
+  \ Lexical Identification Procedure for Perceptual, Cognitive, and Emotional Viewpoint\
+  \ in Narrative Discourse. Open Library of Humanities, 6(1), 18. https://doi.org/10.16995/olh.483\
+  \ \n\nThe data was collected to study the relationship between social-cognitive\
+  \ abilities and the linguistic processing of perceptual, cognitive, and emotional\
+  \ viewpoint markers, in the context of PhD research by Lynn Eekhof, at the Centre\
+  \ for Language Studies, Radboud University."
+CollectionIdentifier: ru.cls.vpip_lexical_identification_procedure_dsc_423
+PersistentIdentifier: 10.34973/85cm-1v03
+PersistentURL: https://doi.org/10.34973/85cm-1v03
+ProjectIdentifier: vpip_lexical_identification_procedure
+OrganisationalUnit: CLS
+Type: Data Sharing Collection
+PreservationTime: '10'
+State: Published
+Publisher: Radboud University
+DataUseAgreement: CC-BY-4.0
+EthicalApprovals: ''
+FreeKeywords:
+- [viewpoint]
+- [' reading']
+- [' perspective']
+- [' narrative']
+SFNKeywords: ['']
+MeSHKeywords: ['']
+Version: '1'
+AssociatedPublications: 'DOI: 10.16995/olh.483'
+AssociatedData: ''
+AssociatedAnalysisTools: 'DOI: 10.16995/olh.483'
+AssociatedPreregistrations: ''
+Authors:
+- ['Eekhof, L.S.']
+- [' Krieken, K.W.M. van']
+- [' Sanders, J.M. (José)']
+Managers:
+- ['Krieken, K.W.M. van']
+- [' Heuvel, H. van den']
+- [' Eekhof, L.S.']
+Contributors: ['']
+NumberOfFiles: '10'
+Size: '1329833'
+Quota: '5368709120'
+CreationDate: 05-Jun-2023 12:28:23
+LastUpdateDate: 05-Jun-2023 12:28:23
+EmbargoUntil: ''
+PublicationDate: 05-Jun-2023 12:28:23
+ArchivalDate: ''
+ViewersByDUA: '0'
+ViewersByManager: '0'
+Views: '266'
+Downloads: '207'
+DataVolume: '39393951'
+Viewers: '31'
+Downloaders: '65'

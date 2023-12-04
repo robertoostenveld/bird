@@ -1,0 +1,61 @@
+Title: Constructing others’ beliefs from one’s own using medial frontal cortex
+Description: Many daily choices are based on one’s own knowledge. However, when predicting
+  other people’s behavior, we need to consider the differences between our knowledge
+  and other people’s presumed knowledge. Social agents need a mechanism to use privileged
+  information for their own behavior but exclude it from predictions of others. Using
+  fMRI, we investigated the neural implementation of such social and personal  predictions
+  by manipulating privileged and shared information. The medial frontal cortex appeared
+  to have an important role in flexibly making decisions using privileged information
+  for oneself or predicting others behavior. Specifically, we show that ventromedial
+  prefrontal cortex tracked the state of the world independent of the type of decision
+  (personal, social), whereas dorsomedial regions adjusted their frame of reference
+  to the use of privileged or shared information. Sampling privileged evidence not
+  available to the confederate also relied on specific interactions between TPJ and
+  frontal pole.
+CollectionIdentifier: di.dccn.DSC_3011152.03_586
+PersistentIdentifier: 10.34973/4t8w-hg78
+PersistentURL: https://doi.org/10.34973/4t8w-hg78
+ProjectIdentifier: '3011152.03'
+OrganisationalUnit: DCCN
+Type: Data Sharing Collection
+PreservationTime: '10'
+State: Published
+Publisher: Radboud University
+DataUseAgreement: CC-BY-NC-ND-4.0
+EthicalApprovals: ''
+FreeKeywords: [social cognition]
+SFNKeywords: ['']
+MeSHKeywords: ['']
+Version: '1'
+AssociatedPublications: ''
+AssociatedData: ''
+AssociatedAnalysisTools: ''
+AssociatedPreregistrations: ''
+Authors:
+- [Nils Kolling]
+- [' Braunsdorf, M.']
+- [' Hassan Vijayakumar, S.']
+- [' Bekkering, H.']
+- [' Toni, I.']
+- [' Mars, R.B.']
+Managers:
+- ['Toni, I.']
+- [' Mars, R.B.']
+Contributors:
+- ['Braunsdorf, M.']
+- [' Braunsdorf, M.']
+NumberOfFiles: '21794'
+Size: '7153738493'
+Quota: '188978561024'
+CreationDate: 18-Oct-2021 09:28:17
+LastUpdateDate: 18-Oct-2021 09:28:17
+EmbargoUntil: ''
+PublicationDate: 18-Oct-2021 09:28:17
+ArchivalDate: ''
+ViewersByDUA: '0'
+ViewersByManager: '0'
+Views: '235'
+Downloads: '33712'
+DataVolume: '9756763306'
+Viewers: '128'
+Downloaders: '61'

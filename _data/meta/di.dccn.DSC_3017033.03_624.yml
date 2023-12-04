@@ -1,0 +1,69 @@
+Title: Frontal network dynamics reflect neurocomputational mechanisms for reducing
+  maladaptive biases in motivated action
+Description: Motivation exerts control over behavior by eliciting Pavlovian responses,
+  which can either match or conflict with instrumental action. We can overcome maladaptive
+  motivational influences, putatively through frontal cognitive control. However,
+  the neurocomputational mechanisms subserving this control are unclear; does control
+  entail upregulating instrumental systems, downregulating Pavlovian systems, or both?
+  We combined EEG recordings with a motivational Go/NoGo learning task (N=34), where
+  multiple Go options enabled us to disentangle selective action learning from non-selective
+  Pavlovian responses. Midfrontal theta-band (4-8Hz) activity covaried with the level
+  of Pavlovian conflict, and was associated with reduced Pavlovian biases, rather
+  than reduced instrumental learning biases. Motor and lateral prefrontal regions
+  synchronized to the midfrontal cortex, and these network dynamics predicted the
+  reduction of Pavlovian biases over and above local, midfrontal theta activity. This
+  work links midfrontal processing to detecting Pavlovian conflict, and highlights
+  the importance of network processing in reducing the impact of maladaptive, Pavlovian
+  biases.
+CollectionIdentifier: di.dccn.DSC_3017033.03_624
+PersistentIdentifier: 10.34973/tdm3-2w47
+PersistentURL: https://doi.org/10.34973/tdm3-2w47
+ProjectIdentifier: '3017033.03'
+OrganisationalUnit: DCCN
+Type: Data Sharing Collection
+PreservationTime: '10'
+State: Published
+Publisher: Radboud University
+DataUseAgreement: CC-BY-4.0
+EthicalApprovals: ''
+FreeKeywords:
+- [time-frequency analysis]
+- [' motivational biases']
+- [' midfrontal theta']
+- [' conflict']
+- [' computational modelling']
+- [' cognitive control']
+- [' (reinforcement) learning']
+SFNKeywords: ['']
+MeSHKeywords: ['']
+Version: '1'
+AssociatedPublications: ''
+AssociatedData: ''
+AssociatedAnalysisTools: ''
+AssociatedPreregistrations: ''
+Authors:
+- ['Swart, J.C.']
+- [' Michael J. Frank']
+- [' Määttä, J.I.M.']
+- [' Ole Jensen']
+- [' Cools, R.']
+- [' Ouden, H.E.M. den']
+Managers:
+- ['Swart, J.C.']
+- [' Ouden, H.E.M. den']
+Contributors: ['']
+NumberOfFiles: '472'
+Size: '7382845956'
+Quota: '11811160064'
+CreationDate: 09-Jul-2018 11:14:27
+LastUpdateDate: 08-Oct-2021 12:06:09
+EmbargoUntil: 09-Jul-2018 11:14:27
+PublicationDate: 09-Jul-2018 11:14:27
+ArchivalDate: ''
+ViewersByDUA: '4'
+ViewersByManager: '0'
+Views: '593'
+Downloads: '4876'
+DataVolume: '42682573168'
+Viewers: '417'
+Downloaders: '252'

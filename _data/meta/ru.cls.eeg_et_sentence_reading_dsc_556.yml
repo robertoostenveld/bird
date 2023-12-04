@@ -1,0 +1,46 @@
+Title: EEG+ET sentence reading
+Description: Simultaneously recorded eye-tracking and EEG from participants reading
+  isolated narrative sentences in Dutch
+CollectionIdentifier: ru.cls.eeg_et_sentence_reading_dsc_556
+PersistentIdentifier: 10.34973/3g69-ha39
+PersistentURL: https://doi.org/10.34973/3g69-ha39
+ProjectIdentifier: eeg_et_sentence_reading
+OrganisationalUnit: CLS
+Type: Data Sharing Collection
+PreservationTime: '10'
+State: Published
+Publisher: Radboud University
+DataUseAgreement: CC-BY-NC-SA-4.0
+EthicalApprovals: ''
+FreeKeywords:
+- [Narrative sentence reading]
+- [' Eye tracking']
+- [' Electroencephalography']
+- [' Dutch']
+SFNKeywords: ['']
+MeSHKeywords: ['']
+Version: '1'
+AssociatedPublications: 'DOI: 10.31234/osf.io/j5fgd'
+AssociatedData: ''
+AssociatedAnalysisTools: ''
+AssociatedPreregistrations: ''
+Authors:
+- [Stefan Frank]
+- [' Aumeistere, A.']
+Managers: [Stefan Frank]
+Contributors: ['']
+NumberOfFiles: '138'
+Size: '20942479110'
+Quota: '26843545600'
+CreationDate: 09-Dec-2022 12:22:02
+LastUpdateDate: 09-Dec-2022 12:46:53
+EmbargoUntil: ''
+PublicationDate: 09-Dec-2022 12:22:02
+ArchivalDate: ''
+ViewersByDUA: '0'
+ViewersByManager: '0'
+Views: '161'
+Downloads: '1582'
+DataVolume: '178353550569'
+Viewers: '86'
+Downloaders: '85'

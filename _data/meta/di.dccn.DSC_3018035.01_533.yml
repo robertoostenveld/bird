@@ -1,0 +1,64 @@
+Title: Predictable tones elicit stimulus-specific suppression of evoked activity in
+  auditory cortex
+Description: The auditory cortex is sensitive to many forms of acoustic regularity,
+  resulting in suppressed neural activity for expected auditory events. It is unclear
+  whether this activity reduction for expected events is the result of suppression
+  of neurons that are tuned to the expected stimulus (i.e., dampening), or alternatively
+  suppression of neurons that are tuned away from the expected stimulus (i.e., sharpening).
+  In the present study, we adjudicated between these models by characterizing the
+  effect of expectation on the ability to classify the identity of auditory stimuli
+  from auditory neural activity patterns, using magnetoencephalography (MEG) in healthy
+  human observers. Participants listened to pure tone pairs, in which the identity
+  of the second tone was either expected or unexpected. The task of the participants
+  was to detect a target tone, which deviated strongly from both the expected and
+  unexpected tones. We found a strong suppression of the overall neural response in
+  the expected condition compared to the unexpected condition. Linear classifiers
+  showed a reduced ability to decode stimulus identity from event-related auditory
+  fields in the expected condition compared to the unexpected condition. This suggests
+  that stimulus-specific event-related activity is dampened for expected tones in
+  auditory cortex. 
+CollectionIdentifier: di.dccn.DSC_3018035.01_533
+PersistentIdentifier: 10.34973/9xvf-wt63
+PersistentURL: https://doi.org/10.34973/9xvf-wt63
+ProjectIdentifier: '3018035.01'
+OrganisationalUnit: DCCN
+Type: Data Sharing Collection
+PreservationTime: '10'
+State: Published
+Publisher: Radboud University
+DataUseAgreement: CC-BY-NC-SA-4.0
+EthicalApprovals: ''
+FreeKeywords:
+- [MEG]
+- [' Expectation suppression']
+- [' Auditory']
+SFNKeywords: ['']
+MeSHKeywords: ['']
+Version: '1'
+AssociatedPublications: ''
+AssociatedData: ''
+AssociatedAnalysisTools: ''
+AssociatedPreregistrations: ''
+Authors:
+- ['Han, B.']
+- [' Pim Mostert']
+- [' Lange, F.P. de']
+Managers:
+- ['Lange, F.P. de']
+- [' Han, B.']
+Contributors: ['']
+NumberOfFiles: '1007'
+Size: '243767953251'
+Quota: '450971566080'
+CreationDate: 10-May-2019 18:07:32
+LastUpdateDate: 08-Oct-2021 12:09:26
+EmbargoUntil: 10-May-2019 18:07:32
+PublicationDate: 10-May-2019 21:53:31
+ArchivalDate: ''
+ViewersByDUA: '0'
+ViewersByManager: '0'
+Views: '1474'
+Downloads: '4927'
+DataVolume: '924808058257'
+Viewers: '352'
+Downloaders: '228'

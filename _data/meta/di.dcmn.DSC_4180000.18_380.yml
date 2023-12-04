@@ -1,0 +1,55 @@
+Title: A triple-network organization for the mouse brain
+Description: "This dataset contains the preprocessed data for \"A triple-network organization\
+  \ for the mouse brain\" by Mandino, Vrooman, Foo, Yeow et al.\r\nFolder structure:\r\
+  \nCAP/CAP_roi #regions of interest used for CAP analysis\r\nCAP/CSD #preprocessed\
+  \ NIFTI files for chronic social defeat model and control mice\r\nCAP/awake #preprocessed\
+  \ NIFTI files for awake mouse dataset\r\nCAP/awake_motion #motion vectors for awake\
+  \ mouse dataset\r\ninsula_git #Long term copy of the code in https://gitlab.socsci.ru.nl/preclinical-neuroimaging/insula\r\
+  \noptoDR/ #preprocessed optoDR dataset https://openneuro.org/datasets/ds001541\r\
+  \noptoINS/ #preprocessed optoINS dataset https://openneuro.org/datasets/ds003464"
+CollectionIdentifier: di.dcmn.DSC_4180000.18_380
+PersistentIdentifier: 10.34973/raa0-5z29
+PersistentURL: https://doi.org/10.34973/raa0-5z29
+ProjectIdentifier: '4180000.18'
+OrganisationalUnit: DCMN
+Type: Data Sharing Collection
+PreservationTime: '10'
+State: Published
+Publisher: Radboud University
+DataUseAgreement: CC-BY-4.0
+EthicalApprovals: ''
+FreeKeywords:
+- [optogenetics]
+- [' mouse']
+- [' functional MRI']
+- [' connectivity']
+- [' co-activation patterns']
+SFNKeywords: ['']
+MeSHKeywords: ['']
+Version: '1'
+AssociatedPublications: ''
+AssociatedData: 'DOI: 10.34973/1he1-5c70; DOI: 10.18112/openneuro.ds003464.v1.0.1;
+  DOI: 10.18112/openneuro.ds001541.v1.1.3'
+AssociatedAnalysisTools: 'URL: https://github.com/grandjeanlab/MouseMRIPrep; URL:
+  https://c4science.ch/source/CAP_Toolbox/'
+AssociatedPreregistrations: ''
+Authors:
+- ['Vrooman, Roël']
+- [' Joanes Grandjean']
+Managers: [Joanes Grandjean]
+Contributors: ['']
+NumberOfFiles: '69344'
+Size: '81671624830'
+Quota: '107374182400'
+CreationDate: 27-Jul-2021 08:17:43
+LastUpdateDate: 08-Oct-2021 12:10:52
+EmbargoUntil: ''
+PublicationDate: 27-Jul-2021 08:17:43
+ArchivalDate: ''
+ViewersByDUA: '0'
+ViewersByManager: '0'
+Views: '354'
+Downloads: '75984'
+DataVolume: '86363516055'
+Viewers: '275'
+Downloaders: '221'

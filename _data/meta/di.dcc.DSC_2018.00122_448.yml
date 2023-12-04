@@ -1,0 +1,76 @@
+Title: From full calibration to zero training for a code-modulated visual evoked potentials
+  brain computer interface
+Description: "Objective. Typically, a brain computer interface (BCI) is calibrated\
+  \ using user- and session-specific data because of the individual idiosyncrasies\
+  \ and the non-stationary signal properties of the electroencephalogram (EEG). Therefore,\
+  \ it is normal that BCIs undergo a time-consuming passive training stage that prevents\
+  \ users from directly operating it. In this study, we systematically reduce the\
+  \ training dataset in a step-wise fashion, to ultimately arrive at a calibration-free\
+  \ method for a code-modulated visually evoked potentials (cVEP) based BCI to fully\
+  \ eliminate the tedious training stage.\r\n\t\t\r\nApproach. In an extensive offline\
+  \ analysis we compare our sophisticated encoding model with a traditional event-related\
+  \ potential (ERP) technique. We calibrate the encoding model in a standard way,\
+  \ with data limited to a single class while generalizing to all others, and without\
+  \ any data. Additionally, we investigate the feasibility of the zero-training cVEP\
+  \ BCI in an online setting. \r\n\t\t\r\nMain results. By adopting the encoding model,\
+  \ the training data can be reduced substantially, while maintaining both the classification\
+  \ performance as well as the explained variance of the ERP method. More so, with\
+  \ data of only a one class or even no data at all, it still shows excellent performance.\
+  \ Besides, the zero-training cVEP BCI achieved high communication rates in an online\
+  \ spelling task, proving its feasibility in practical use.\r\n\t\t\r\nSignificance.\
+  \ To date this is the fastest zero-training cVEP BCI in the field, allowing high\
+  \ communication speeds without calibration while using only a few non-invasive water-based\
+  \ EEG electrodes. This allows to skip the training stage altogether and spent all\
+  \ precious time on direct operation. This minimizes session time and opens up new\
+  \ exciting directions to practical plug-and-play BCI. Fundamentally, these results\
+  \ validate that the adopted neural encoding model compresses data into event-responses\
+  \ without loss of explanatory power as compared to using full ERPs as template."
+CollectionIdentifier: di.dcc.DSC_2018.00122_448
+PersistentIdentifier: 10.34973/9txv-z787
+PersistentURL: https://doi.org/10.34973/9txv-z787
+ProjectIdentifier: '2018.00122'
+OrganisationalUnit: DCC
+Type: Data Sharing Collection
+PreservationTime: '10'
+State: Published
+Publisher: Radboud University
+DataUseAgreement: CC0-1.0
+EthicalApprovals: ''
+FreeKeywords:
+- [zero training]
+- [' spread spectrum communication']
+- [' reconvolution']
+- [' electroencephalography (EEG)']
+- [' code modulated visual evoked potentials (cVEP)']
+- [' brain computer interface (BCI)']
+SFNKeywords: ['']
+MeSHKeywords: ['']
+Version: '3'
+AssociatedPublications: ''
+AssociatedData: ''
+AssociatedAnalysisTools: ''
+AssociatedPreregistrations: ''
+Authors:
+- ['Thielen, J. (Jordy)']
+- [' Pieter Marsman']
+- [' Jason Farquhar']
+- [' Desain, P.W.M. (Peter)']
+Managers:
+- ['Thielen, J.']
+- [' Desain, P.W.M.']
+Contributors: ['']
+NumberOfFiles: '1146'
+Size: '2722025084'
+Quota: '10737418240'
+CreationDate: 17-Aug-2023 09:08:50
+LastUpdateDate: 17-Aug-2023 09:08:50
+EmbargoUntil: ''
+PublicationDate: 17-Aug-2023 09:08:50
+ArchivalDate: ''
+ViewersByDUA: '0'
+ViewersByManager: '26'
+Views: '243'
+Downloads: '8031'
+DataVolume: '18860566646'
+Viewers: '75'
+Downloaders: '20'

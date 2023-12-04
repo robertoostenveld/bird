@@ -1,0 +1,68 @@
+Title: Distracting Linguistic Information Impairs Neural Tracking of Attended Speech
+Description: Listening to speech is difficult in noisy environments, and is even harder
+  when the interfering noise consists of intelligible speech as compared to unintelligible
+  sounds. This suggests that the competing linguistic information interferes with
+  the neural processing of target speech. Interference could either arise from a degradation
+  of the neural representation of the target speech, or from increased representation
+  of distracting speech that enters in competition with the target speech. We tested
+  these alternative hypotheses using magnetoencephalography (MEG) while participants
+  listened to a target clear speech in the presence of distracting noise-vocoded speech.
+  Crucially, the distractors were initially unintelligible but became more intelligible
+  after a short training session. Results showed that the comprehension of the target
+  speech was poorer after training than before training. The neural tracking of target
+  speech in the delta range (1–4 Hz) reduced in strength in the presence of a more
+  intelligible distractor. In contrast, the neural tracking of distracting signals
+  was not significantly modulated by intelligibility. These results suggest that the
+  presence of distracting speech signals degrades the linguistic representation of
+  target speech carried by delta oscillations.
+CollectionIdentifier: di.dccn.DSC_3011087.01_512
+PersistentIdentifier: 10.34973/rtre-f466
+PersistentURL: https://doi.org/10.34973/rtre-f466
+ProjectIdentifier: '3011087.01'
+OrganisationalUnit: DCCN
+Type: Data Sharing Collection
+PreservationTime: '10'
+State: Published
+Publisher: Radboud University
+DataUseAgreement: CC-BY-NC-ND-4.0
+EthicalApprovals: ''
+FreeKeywords:
+- [neural oscillations]
+- [' informational masking']
+- [' Speech']
+- [' MEG']
+- [' Cocktail party']
+SFNKeywords: ['']
+MeSHKeywords: ['']
+Version: '1'
+AssociatedPublications: 'DOI: 10.1016/j.crneur.2022.100043'
+AssociatedData: ''
+AssociatedAnalysisTools: ''
+AssociatedPreregistrations: ''
+Authors:
+- ['Dai, B.']
+- [' McQueen, J.M.']
+- [' Rene Terporten']
+- [' Hagoort, P.']
+- [' Anne Kosem']
+Managers:
+- ['Kösem, A.V.M.']
+- [' Hagoort, P.']
+Contributors:
+- ['Dai, B.']
+- [' Anne Kosem']
+NumberOfFiles: '330'
+Size: '194991432733'
+Quota: '386547056640'
+CreationDate: 07-Jun-2022 12:07:06
+LastUpdateDate: 07-Jun-2022 12:07:06
+EmbargoUntil: ''
+PublicationDate: 07-Jun-2022 12:07:06
+ArchivalDate: ''
+ViewersByDUA: '0'
+ViewersByManager: '0'
+Views: '297'
+Downloads: '495'
+DataVolume: '195451548945'
+Viewers: '243'
+Downloaders: '23'

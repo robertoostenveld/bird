@@ -1,0 +1,75 @@
+Title: Late integration of vision and proprioception during perturbed reaches
+Description: "Abstract\r\nThe motor system corrects rapidly, but selectively, for\
+  \ perturbations to ongoing reaching movements, depending on the constraints of the\
+  \ task. To account for such sophistication, it has been postulated that corrections\
+  \ are based on an estimated limb state that integrates all sensory changes caused\
+  \ by the perturbation, taking into account their processing delays. Here we asked\
+  \ if information from different sensory modalities is integrated immediately, or\
+  \ processed separately in the early phase of a response. We perturbed the estimated\
+  \ state of the limb with both uni-modal and bi-modal visual and proprioceptive perturbations\
+  \ without changing the actual limb state. For visual perturbations, a cursor representing\
+  \ the hand was shifted to the left or the right relative to the true hand location.\
+  \ For proprioceptive perturbations, the biceps or triceps muscles were vibrated,\
+  \ which induced illusory limb state changes to the right or the left. In the bimodal\
+  \ condition the perturbations to vision and proprioception were either congruent\
+  \ or incongruent in their directions. Response latencies show that it takes ~100\
+  \ ms longer to respond to unimodal visual perturbations than to unimodal proprioceptive\
+  \ perturbations. Responses to bimodal perturbations show that it takes an additional\
+  \ ~100 ms beyond the response to unimodal visual perturbations for inter-modal consistency\
+  \ to impact the response. These results suggest that visual and proprioceptive signals\
+  \ are initially processed separately for state estimation and only combined at the\
+  \ level of the limb's motor output, instead of being immediately integrated into\
+  \ a single state estimate of the limb."
+CollectionIdentifier: di.dcc.DSC_2018.00055_763
+PersistentIdentifier: 10.34973/14xb-gn60
+PersistentURL: https://doi.org/10.34973/14xb-gn60
+ProjectIdentifier: '2018.00055'
+OrganisationalUnit: DCC
+Type: Data Sharing Collection
+PreservationTime: '10'
+State: Published
+Publisher: Radboud University
+DataUseAgreement: CC-BY-NC-SA-4.0
+EthicalApprovals: ''
+FreeKeywords:
+- [visual response]
+- [' state estimation']
+- [' proprioception']
+- [' muscle/tendon vibration']
+- [' multisensory perturbation']
+- [' multisensory integration']
+- [' goal-directed movements']
+- [' feedback control']
+SFNKeywords: ['']
+MeSHKeywords: ['']
+Version: '1'
+AssociatedPublications: ''
+AssociatedData: ''
+AssociatedAnalysisTools: ''
+AssociatedPreregistrations: ''
+Authors:
+- [Johannes Keyser]
+- [' Medendorp, W.P.']
+- [' Oostwoud Wijdenes, L.']
+- [' Selen, L.P.J.']
+Managers:
+- ['Selen, L.P.J.']
+- [' Medendorp, W.P.']
+Contributors:
+- ['Oostwoud Wijdenes, L.']
+- [' Johannes Keyser']
+NumberOfFiles: '29'
+Size: '3432997238'
+Quota: '51539607552'
+CreationDate: 28-Mar-2023 11:58:39
+LastUpdateDate: 28-Mar-2023 11:58:39
+EmbargoUntil: ''
+PublicationDate: 28-Mar-2023 11:58:39
+ArchivalDate: ''
+ViewersByDUA: '0'
+ViewersByManager: '0'
+Views: '247'
+Downloads: '59'
+DataVolume: '3750380805'
+Viewers: '79'
+Downloaders: '16'

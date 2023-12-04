@@ -1,0 +1,65 @@
+Title: The multimodal nature of communicative efficiency in social interaction
+Description: "This collection supports the paper:\r\nRasenberg, M., Pouw, W., Özyü\
+  rek, A., & Dingemanse, M. The multimodal nature of communicative efficiency in social\
+  \ interaction. Scientific Reports. https://doi.org/10.1038/s41598-022-22883-w\r\n\
+  \r\nBelow you can see the contents of the collection and download files one-by-one.\
+  \ To download several files or the entire collection at once, you need a WebDAV\
+  \ client. When you use Cyberduck: click on 'open connection', paste the public data\
+  \ URL (see below under files) in the 'server' field, and tick 'anonymous login'.\r\
+  \n\r\n--\r\n\r\nThe collection is organized as follows:\r\n\r\n# Code for analyses\
+  \ and figures\r\nThe script 'main_analysis_multimodal_effort' (.Rmd and .html files)\
+  \ contains the code for the analyses and figures as reported in the manuscript.\r\
+  \n\r\n# 1_data\r\nThis folder contains:\r\n* speech and gesture annotations (ELAN\
+  \ and .csv files)\r\n* motion tracking (Kinect) data\r\n\r\n# 2_processing\r\nThis\
+  \ folder contains several scripts and intermediate files pertaining to the cleaning\
+  \ and processing of the data.\r\n\r\n# 3_figures\r\nThis folder contains the figures\
+  \ which are included in the paper.\r\n\r\n# 4_out\r\nThis folder contains output\
+  \ from the Rmd files which are rendered in the html files."
+CollectionIdentifier: di.dccn.DSC_3011157.02_379
+PersistentIdentifier: 10.34973/12dp-9q56
+PersistentURL: https://doi.org/10.34973/12dp-9q56
+ProjectIdentifier: '3011157.02'
+OrganisationalUnit: DCCN
+Type: Data Sharing Collection
+PreservationTime: '15'
+State: Published
+Publisher: Radboud University
+DataUseAgreement: ODC-ODbL-1.0
+EthicalApprovals: ''
+FreeKeywords:
+- [social interaction]
+- [' repair']
+- [' language']
+- [' gesture']
+- [' efficiency']
+SFNKeywords: ['']
+MeSHKeywords: ['']
+Version: '1'
+AssociatedPublications: 'DOI: 10.1038/s41598-022-22883-w'
+AssociatedData: ''
+AssociatedAnalysisTools: ''
+AssociatedPreregistrations: ''
+Authors:
+- ['Rasenberg, M.E.']
+- [' Pouw, W.T.J.L.']
+- [' Asli Özyürek']
+- [' M. Dingemanse']
+Managers:
+- ['Toni, I.']
+- [' Rasenberg, M.E.']
+Contributors: ['']
+NumberOfFiles: '216'
+Size: '838282346'
+Quota: '2147483648'
+CreationDate: 26-Oct-2022 18:40:31
+LastUpdateDate: 26-Oct-2022 18:40:31
+EmbargoUntil: ''
+PublicationDate: 26-Oct-2022 18:40:31
+ArchivalDate: ''
+ViewersByDUA: '0'
+ViewersByManager: '2'
+Views: '284'
+Downloads: '1614'
+DataVolume: '6334462469'
+Viewers: '130'
+Downloaders: '22'

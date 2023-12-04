@@ -1,0 +1,74 @@
+Title: The primacy of multimodal alignment in converging on shared symbols for novel
+  referents
+Description: "This collection contains data, code and figures for the paper: \r\n\
+  Rasenberg, M., Özyürek, A., Bögels, S., & Dingemanse, M. (2022). The primacy of\
+  \ multimodal alignment in converging on shared symbols for novel referents. Discourse\
+  \ Processes. https://doi.org/10.1080/0163853X.2021.1992235\r\n\r\nTo directly view\
+  \ files or code (in .html format) in your browser without downloading, use the URL\
+  \ under 'files' below. \r\nTo download several files or the entire collection at\
+  \ once, you need a WebDAV client. When you use Cyberduck: click on 'open connection',\
+  \ paste the same URL in the 'server' field, and tick 'anonymous login'.\r\n\r\n\r\
+  \n---\r\nThe collection is organized as follows:\r\n\r\n# Code for analyses and\
+  \ figures\r\nThe code is written in R markdown files (.Rmd), and rendered as .html\
+  \ files.\r\nThere are six scripts: \r\n   * main_analysis_namingtask --> reported\
+  \ in results section 3.1\r\n   * main_analysis_alignment --> reported in results\
+  \ sections 3.1 to 3.3\r\n   * supplementary_analysis_gestureformsimilarity --> Appendix\
+  \ B  \r\n   * supplementary_analysis_alignment-namingtask --> Appendix C\r\n   *\
+  \ reliability_gesturecoding --> Appendix A  \r\n   * reliability_gestureformsimilarity\
+  \ --> Appendix B\r\n\r\n# 1_data\r\nThe data is sorted into two folders:\r\n* naming\
+  \ task: the task in which participants labelled the target items before and after\
+  \ the interaction\r\n* referential task: the director-matcher interaction task in\
+  \ which participants refer to the target items\r\n\r\n# 2_figures\r\nThis folder\
+  \ contains the figures which are included in the paper\r\n\r\n# 3_out\r\nThis folder\
+  \ contains output from the Rmd files which are rendered in the html files"
+CollectionIdentifier: di.dccn.DSC_3011157.02_017
+PersistentIdentifier: 10.34973/7kbd-5g86
+PersistentURL: https://doi.org/10.34973/7kbd-5g86
+ProjectIdentifier: '3011157.02'
+OrganisationalUnit: DCCN
+Type: Data Sharing Collection
+PreservationTime: '15'
+State: Published
+Publisher: Radboud University
+DataUseAgreement: ODC-ODbL-1.0
+EthicalApprovals: ''
+FreeKeywords:
+- [symbol creation]
+- [' multimodality']
+- [' interaction']
+- [' gesture']
+- [' emergence']
+- [' alignment']
+SFNKeywords: ['']
+MeSHKeywords: ['']
+Version: '1'
+AssociatedPublications: 'DOI: 10.1080/0163853X.2021.1992235'
+AssociatedData: ''
+AssociatedAnalysisTools: ''
+AssociatedPreregistrations: ''
+Authors:
+- ['Rasenberg, M.E.']
+- [' Asli Özyürek']
+- [' Bögels, S.']
+- [' M. Dingemanse']
+Managers:
+- ['Toni, I.']
+- [' Rasenberg, M.E.']
+- [' M. Dingemanse']
+- [' Bögels, S.']
+Contributors: ['']
+NumberOfFiles: '69'
+Size: '7801338'
+Quota: '1073741824'
+CreationDate: 25-Mar-2022 10:27:05
+LastUpdateDate: 25-Mar-2022 10:27:05
+EmbargoUntil: ''
+PublicationDate: 25-Mar-2022 10:27:05
+ArchivalDate: ''
+ViewersByDUA: '0'
+ViewersByManager: '1'
+Views: '346'
+Downloads: '994'
+DataVolume: '515833838'
+Viewers: '230'
+Downloaders: '447'

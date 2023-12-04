@@ -1,0 +1,70 @@
+Title: How infant-directed actions enhance infants’ attention, learning, and exploration
+Description: When teaching infants new actions, parents tend to modify their movements.
+  Infants prefer these infant-directed actions (IDAs) over adult-directed actions
+  and learn well from them. Yet, it remains unclear how parents’ action modulations
+  capture infants’ attention. Typically, making movements larger than usual is thought
+  to draw attention. Recent findings, however, suggest that parents might exploit
+  movement variability to highlight actions. We hypothesized that variability in movement
+  amplitude rather than higher amplitude is capturing infants’ attention during IDAs.
+  Using EEG, we measured 15-month-olds’ brain activity while they were observing action
+  demonstrations with normal, high, or variable amplitude movements. Infants’ theta
+  power (4-5Hz) in fronto-central channels was compared between conditions. Frontal
+  theta was significantly higher, indicating stronger attentional engagement, in the
+  variable compared to the other conditions. Computational modelling showed that infants’
+  frontal theta power was predicted best by how surprising each movement was. Thus,
+  surprise induced by variability in movements rather than large movements alone engages
+  infants’ attention during IDAs. Infants with higher theta power for variable movements
+  were more likely to perform actions successfully and to explore objects novel in
+  the context of the given goal. This highlights the brain mechanisms by which IDAs
+  enhance infants’ attention, learning, and exploration.
+CollectionIdentifier: di.dcc.DSC_2020.00128_391
+PersistentIdentifier: 10.34973/0egj-ky51
+PersistentURL: https://doi.org/10.34973/0egj-ky51
+ProjectIdentifier: '2020.00128'
+OrganisationalUnit: DCC
+Type: Data Sharing Collection
+PreservationTime: '10'
+State: Published
+Publisher: Radboud University
+DataUseAgreement: ODC-ODbL-1.0
+EthicalApprovals: ''
+FreeKeywords:
+- [Theta Oscillations]
+- [' Surprise']
+- [' Infants']
+- [' Infant-directed Actions']
+- [' EEG']
+- [' Attention']
+SFNKeywords: ['']
+MeSHKeywords: ['']
+Version: '1'
+AssociatedPublications: ''
+AssociatedData: ''
+AssociatedAnalysisTools: ''
+AssociatedPreregistrations: ''
+Authors:
+- ['Meyer, M.']
+- [' Jo van Schaik']
+- [' Poli, F.']
+- [' Hunnius, S.']
+Managers:
+- ['Meyer, M.']
+- [' Hunnius, S.']
+Contributors:
+- ['Oostenveld, R.']
+- [' Didi  Lamers']
+NumberOfFiles: '576'
+Size: '1619655312'
+Quota: '216895848448'
+CreationDate: 01-Apr-2022 11:56:40
+LastUpdateDate: 01-Apr-2022 11:56:40
+EmbargoUntil: ''
+PublicationDate: 01-Apr-2022 11:56:40
+ArchivalDate: ''
+ViewersByDUA: '0'
+ViewersByManager: '0'
+Views: '247'
+Downloads: '798'
+DataVolume: '1767449838'
+Viewers: '144'
+Downloaders: '46'

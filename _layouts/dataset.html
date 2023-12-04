@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+      {{ page.dataset }}
+    </title>
+  </head>
+  
+  <a href='/'>back to overview</a>
+
+  <body>
+
+    <h1>{{ page.dataset }}</h1>
+
+    <hr>
+
+    {% assign collid = page.dataset | remove: '.' %}
+    {% assign meta = site.data.meta[collid] %}
+
+    {% if meta != nill %}
+    <table>
+
+      {% assign keys = 'Title,Authors,Description,PersistentIdentifier'  | split: ',' %}
+      {% for key in keys %}
+      {% if meta[key].size != 0 %}
+      <tr>
+        <td>{{ key }}</td>
+        <td>{{ meta[key] }}</td>
+      </tr>
+      {% endif %}
+      {% endfor %}
+
+      {% assign key = 'PersistentURL' %}
+      <tr>
+        <td>{{ key }}</td>
+        <td><a href="{{ meta[key] }}">{{ meta[key] }}</a></td>
+      </tr>
+
+      {% assign key = 'Publisher' %}
+      <tr>
+        <td>{{ key }}</td>
+        <td>{{ meta[key] }}</td>
+      </tr>
+
+      {% assign key = 'DataUseAgreement' %}
+      <tr>
+        <td>{{ key }}</td>
+        <td><a href="https://data.ru.nl/doc/dua/{{ meta[key] }}.html">{{ meta[key] }}</a></td>
+      </tr>
+      
+      {% assign keys = 'FreeKeywords,SFNKeywords,MeSHKeywords,Version,AssociatedPublications,AssociatedData,AssociatedAnalysisTools,AssociatedPreregistrations,NumberOfFiles,Size,CreationDate,PublicationDate,LastUpdateDate' | split: ',' %}
+
+      {% for key in keys %}
+      {% if meta[key].size != 0 %}
+      <tr>
+        <td>{{ key }}</td>
+        <td>{{ meta[key] }}</td>
+      </tr>
+      {% endif %}
+      {% endfor %}
+
+    </table>
+    {% endif %}
+    
+    {% assign collid_v = collid | append: '_v' | append: meta['Version'] %}
+    {% assign manifest = site.data.manifest[collid_v] %}
+    {% if manifest != nill %}
+    
+    <hr>
+    
+    {% assign BaseURL = "https://public.data.ru.nl" %}
+    {% assign OrganisationalUnit = meta.OrganisationalUnit | downcase %}
+    {% assign CollectionIdentifier = meta.CollectionIdentifier | remove_first: "ru." | remove_first: "di." | remove_first: OrganisationalUnit | remove_first: "." %}
+
+    <table>
+    {% for row in manifest %}
+    <tr>
+      <td><a href="{{ BaseURL }}/{{ OrganisationalUnit }}/{{ CollectionIdentifier }}_v{{ meta['Version'] }}/{{ row.filename }}">{{ row.filename }}</a></td>
+    </tr>
+    {% endfor %}
+  </table>
+  {% endif %}
+
+  </body>
+</html>

@@ -1,0 +1,52 @@
+Title: Behavioral assessment of the quality of speech reconstructions from intracranial
+  neural activity
+Description: 'The collection contains behavioral data for the manuscript "Direct Speech
+  Reconstruction from Sensorimotor Brain Activity with Optimized Deep Learning Models".
+  Behavioral data was collected from three experiments: a word recognition experiment
+  (I), a speaker recognition experiment (II) and an audio quality assessment (III).
+  The aim of the experiments was to collect human perceptual judgments of speech reconstructed
+  from sensorimotor human brain activity.'
+CollectionIdentifier: di.dcc.DSC_2021.00094_659
+PersistentIdentifier: 10.34973/c07k-v019
+PersistentURL: https://doi.org/10.34973/c07k-v019
+ProjectIdentifier: '2021.00094'
+OrganisationalUnit: DCC
+Type: Data Sharing Collection
+PreservationTime: '10'
+State: Published
+Publisher: Radboud University
+DataUseAgreement: CC-BY-NC-4.0
+EthicalApprovals: ''
+FreeKeywords:
+- [speech perception]
+- [' human perceptual judgments']
+- [' behavioral experiment']
+SFNKeywords: ['']
+MeSHKeywords: ['']
+Version: '1'
+AssociatedPublications: ''
+AssociatedData: ''
+AssociatedAnalysisTools: ''
+AssociatedPreregistrations: ''
+Authors:
+- ['Berezutskaya, Y.']
+- [' Gerven, M.A.J. van']
+Managers:
+- ['Gerven, M.A.J. van']
+- [' Berezutskaya, Y.']
+Contributors: ['']
+NumberOfFiles: '21'
+Size: '38957696'
+Quota: '28991029248'
+CreationDate: 13-Feb-2023 11:59:32
+LastUpdateDate: 13-Feb-2023 11:59:32
+EmbargoUntil: ''
+PublicationDate: 13-Feb-2023 11:59:32
+ArchivalDate: ''
+ViewersByDUA: '0'
+ViewersByManager: '0'
+Views: '215'
+Downloads: '169'
+DataVolume: '298110730'
+Viewers: '75'
+Downloaders: '10'

@@ -1,0 +1,57 @@
+Title: 'Leaky Forms: A Study of Email and Password Exfiltration Before Form Submission
+  (USENIX Security''22)'
+Description: "This dataset contains data from ten crawls performed between May 2021\
+  \ and June 2021 using an extended version of DuckDuckGo’s Tracker Radar Collector.\r\
+  \n\r\nA list of the included crawls is given in the README.md file. Details of the\
+  \ data collection methods can be found in the published paper: Leaky Forms: A Study\
+  \ of Email and Password Exfiltration Before Form Submission (USENIX Security'22).\
+  \ Asuman Senol and Gunes Acar and Mathias Humbert and Frederik Zuiderveen Borgesius.\
+  \ In Proceedings of the 31st USENIX Security Symposium, Boston, USA, August 10–\
+  12, 2022.\r\n\r\n- Project website: https://homes.esat.kuleuven.be/~asenol/leaky-forms/\r\
+  \n- Paper: https://homes.esat.kuleuven.be/~asenol/leaky-forms/leaky-forms-usenix-sec22.pdf\r\
+  \n- Crawler source code: https://github.com/leaky-forms/leaky-forms-crawler"
+CollectionIdentifier: ru.icis.usenix-sec-22_dsc_549
+PersistentIdentifier: 10.34973/g31y-n884
+PersistentURL: https://doi.org/10.34973/g31y-n884
+ProjectIdentifier: usenix-sec-22
+OrganisationalUnit: ICIS
+Type: Data Sharing Collection
+PreservationTime: '10'
+State: Published
+Publisher: Radboud University
+DataUseAgreement: CC0-1.0
+EthicalApprovals: ''
+FreeKeywords:
+- [privacy]
+- [' online tracking']
+- [' data exfiltration']
+- [' JavaScript']
+SFNKeywords: ['']
+MeSHKeywords: ['']
+Version: '1'
+AssociatedPublications: 'ISBN: 9781939133311'
+AssociatedData: ''
+AssociatedAnalysisTools: ''
+AssociatedPreregistrations: ''
+Authors:
+- [Asuman Senol]
+- [' Acar, Gunes']
+- [' Mathias Humbert']
+- [' Frederik Zuiderveen Borgesius']
+Managers: ['Acar, Gunes']
+Contributors: ['']
+NumberOfFiles: '14'
+Size: '219880784516'
+Quota: '268435456000'
+CreationDate: 19-Sep-2022 18:42:05
+LastUpdateDate: 19-Sep-2022 18:42:05
+EmbargoUntil: ''
+PublicationDate: 19-Sep-2022 18:42:05
+ArchivalDate: ''
+ViewersByDUA: '0'
+ViewersByManager: '0'
+Views: '2189'
+Downloads: '262'
+DataVolume: '4003358611669'
+Viewers: '568'
+Downloaders: '115'

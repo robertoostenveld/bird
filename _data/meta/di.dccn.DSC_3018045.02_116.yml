@@ -1,0 +1,72 @@
+Title: Tracking predictions in naturalistic music listening using MEG and computational
+  models of music
+Description: "This is the dataset acquired for the 2022 study by Kern, Heilbron, De\
+  \ Lange, & Spaak. Licensed CC-BY-4.0, to comply with attribution terms, please cite\
+  \ the related publication (peer-reviewed when available, preprint otherwise). Abstract\
+  \ for the preprint describing the study below:\r\n\r\nExpectations shape our experience\
+  \ of music. However, the internal model upon which listeners form melodic expectations\
+  \ is still debated. Do expectations stem from Gestalt-like principles or statistical\
+  \ learning? If the latter, does long-term experience play an important role, or\
+  \ are short-term regularities sufficient? And finally, what length of context informs\
+  \ contextual expectations? To answer these questions, we presented human listeners\
+  \ with diverse naturalistic compositions from Western classical music, while recording\
+  \ neural activity using MEG. We quantified note-level melodic surprise and uncertainty\
+  \ using various computational models of music, including a state-of-the-art transformer\
+  \ neural network. A time-resolved regression analysis revealed that neural activity\
+  \ over fronto-temporal sensors tracked melodic surprise particularly around 200\
+  \ ms and 300-500 ms after note onset. This neural surprise response was dissociated\
+  \ from sensory-acoustic and adaptation effects. Neural surprise was best predicted\
+  \ by computational models that incorporated long-term statistical learning - rather\
+  \ than by simple, Gestalt-like principles. Yet, intriguingly, the surprise reflected\
+  \ primarily short-range musical contexts of less than ten notes. We present a full\
+  \ replication of our novel MEG results in an openly available EEG dataset. Together,\
+  \ these results elucidate the internal model that shapes melodic predictions during\
+  \ naturalistic music listening."
+CollectionIdentifier: di.dccn.DSC_3018045.02_116
+PersistentIdentifier: 10.34973/5qxw-nn97
+PersistentURL: https://doi.org/10.34973/5qxw-nn97
+ProjectIdentifier: '3018045.02'
+OrganisationalUnit: DCCN
+Type: Data Sharing Collection
+PreservationTime: '10'
+State: Published
+Publisher: Radboud University
+DataUseAgreement: CC-BY-4.0
+EthicalApprovals: ''
+FreeKeywords:
+- [neuroscience]
+- [' naturalistic']
+- [' music']
+SFNKeywords: ['']
+MeSHKeywords: ['']
+Version: '1'
+AssociatedPublications: 'bioRxiv: 2022.06.08.495241'
+AssociatedData: ''
+AssociatedAnalysisTools: ''
+AssociatedPreregistrations: ''
+Authors:
+- ['Kern, P.']
+- [' Heilbron, M.']
+- [' Lange, F.P. de']
+- [' Spaak, E.']
+Managers:
+- ['Spaak, E.']
+- [' Lange, F.P. de']
+Contributors:
+- ['Heilbron, M.']
+- [' Kern, P.']
+NumberOfFiles: '3737'
+Size: '357881473935'
+Quota: '826781204480'
+CreationDate: 10-Jan-2023 15:19:53
+LastUpdateDate: 10-Jan-2023 15:19:53
+EmbargoUntil: ''
+PublicationDate: 10-Jan-2023 15:19:53
+ArchivalDate: ''
+ViewersByDUA: '0'
+ViewersByManager: '0'
+Views: '370'
+Downloads: '36285'
+DataVolume: '849997775927'
+Viewers: '220'
+Downloaders: '133'

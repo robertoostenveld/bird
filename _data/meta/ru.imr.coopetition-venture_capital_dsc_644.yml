@@ -1,0 +1,55 @@
+Title: FINDER - Effective strategies & policies for enhanced social payoff, during
+  and after digital transformation
+Description: "This project (FINDER) has received funding from the European Union’\
+  s Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie\
+  \ grant agreement No 813095. (https://thefinderproject.eu/)\n\n\nThe dataset was\
+  \ created as part of the FINDER project workstream #5 \" Effective strategies &\
+  \ policies for enhanced social payoff, during and after digital transformation \"\
+  . \n\nIn this research, we focus on how the collaborative strategy among venture\
+  \ capital competitors influences the high-technology (high-tech) startup' successful\
+  \ exiting. As the success of high-tech startups are critical for our society. Supporting\
+  \ the high tech startups can enhance social payoff through economic development,\
+  \ job creation, and social cohesion.  This initial dataset was extended from various\
+  \ databases e.g., Crunchbase, Eikon."
+CollectionIdentifier: ru.imr.coopetition-venture_capital_dsc_644
+PersistentIdentifier: 10.34973/g346-3357
+PersistentURL: https://doi.org/10.34973/g346-3357
+ProjectIdentifier: coopetition-venture_capital
+OrganisationalUnit: IMR
+Type: Data Sharing Collection
+PreservationTime: '10'
+State: Published
+Publisher: Radboud University
+DataUseAgreement: CC0-1.0
+EthicalApprovals: ''
+FreeKeywords: ['High-tech startups, Investors, Successful exiting']
+SFNKeywords: ['']
+MeSHKeywords: ['']
+Version: '1'
+AssociatedPublications: ''
+AssociatedData: ''
+AssociatedAnalysisTools: ''
+AssociatedPreregistrations: ''
+Authors:
+- ['Wang, X.']
+- [' Aalbers, H.L.']
+Managers:
+- ['Wang, X.']
+- [' Manhardt, F.']
+- [' Aalbers, H.L.']
+Contributors: ['']
+NumberOfFiles: '5'
+Size: '19597463'
+Quota: '5368709120'
+CreationDate: 10-May-2023 14:39:29
+LastUpdateDate: 10-May-2023 14:39:29
+EmbargoUntil: ''
+PublicationDate: 10-May-2023 14:39:29
+ArchivalDate: ''
+ViewersByDUA: '0'
+ViewersByManager: '0'
+Views: '297'
+Downloads: '106'
+DataVolume: '235332218'
+Viewers: '74'
+Downloaders: '35'

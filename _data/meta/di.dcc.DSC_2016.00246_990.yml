@@ -1,0 +1,49 @@
+Title: The role of the forward model in saccade target selection
+Description: This repository contains data from the 40 subjects that led to "“Abrupt,
+  but not gradual, motor adaptation biases saccadic target selection” in Journal of
+  Neurophysiology (2023) by Teunissen, Selen and Medendorp.
+CollectionIdentifier: di.dcc.DSC_2016.00246_990
+PersistentIdentifier: 10.34973/wbkj-1j65
+PersistentURL: https://doi.org/10.34973/wbkj-1j65
+ProjectIdentifier: '2016.00246'
+OrganisationalUnit: DCC
+Type: Data Sharing Collection
+PreservationTime: '10'
+State: Published
+Publisher: Radboud University
+DataUseAgreement: CC-BY-NC-SA-4.0
+EthicalApprovals: ''
+FreeKeywords:
+- [Saccades]
+- [' Decision Making']
+- [' Adaptation']
+SFNKeywords: ['']
+MeSHKeywords: ['']
+Version: '1'
+AssociatedPublications: ''
+AssociatedData: ''
+AssociatedAnalysisTools: ''
+AssociatedPreregistrations: ''
+Authors:
+- ['Medendorp, W.P.']
+- [' Teunissen, L.']
+- [' Selen, L.P.J.']
+Managers:
+- ['Selen, L.P.J.']
+- [' Medendorp, W.P.']
+Contributors: ['Teunissen, L.']
+NumberOfFiles: '5'
+Size: '652624218'
+Quota: '1073741824'
+CreationDate: 21-Feb-2023 20:12:38
+LastUpdateDate: 21-Feb-2023 20:12:38
+EmbargoUntil: ''
+PublicationDate: 21-Feb-2023 20:12:38
+ArchivalDate: ''
+ViewersByDUA: '0'
+ViewersByManager: '0'
+Views: '311'
+Downloads: '31'
+DataVolume: '3263152641'
+Viewers: '86'
+Downloaders: '8'
