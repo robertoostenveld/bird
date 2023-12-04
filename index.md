@@ -9,8 +9,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ## Datasets
 
 <ul>
-{% for item in site.data %}
-  
+{% for item in site.data.meta %}
+
   {% assign collid = item[1].CollectionIdentifier %}
   {% assign authors = item[1].Authors | join: ", " | default: "Unknown"  %}
   {% assign pubdate = item[1].PublicationDate | split: " " %}
