@@ -21,7 +21,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% if datasetid %}
 <li>
-{{ authors }} ({{ pubdate }}): <a href="{{ site.baseurl }}/radboud/{{ datasetid }}">{{ meta.Title }}</a> Version {{ meta.Version }}. {{ meta.Publisher }}. (dataset). {{ meta.PersistentURL }}
+{{ authors }} ({{ pubdate }}): <a href="radboud/{{ datasetid }}">{{ meta.Title }}</a> Version {{ meta.Version }}. {{ meta.Publisher }}. (dataset). {{ meta.PersistentURL }}
 </li>
 {% endif %}
 
@@ -45,7 +45,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {% assign pubdate = meta.metadata.publication_date | split: "-" | first %}
 
 <li>
-{{ authors }} ({{ pubdate }}): <a href="{{ site.baseurl }}/zenodo/{{ datasetid }}">{{ meta['metadata']['title'] }}</a> Version {{ meta.versions.index }}. Zenodo. (dataset). {{ meta.links.doi }}
+{{ authors }} ({{ pubdate }}): <a href="zenodo/{{ datasetid }}">{{ meta['metadata']['title'] }}</a> Version {{ meta.versions.index }}. Zenodo. (dataset). {{ meta.links.doi }}
 </li>
 
 {% endfor %}
@@ -60,7 +60,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {% assign authors = meta.author | join: "; " | default: "Unknown"  %}
 
 <li>
-{{ authors }} ({{ meta.year }}): <a href="{{ site.baseurl }}/openneuro/{{ meta.id }}">{{ meta.title }}</a>. OpenNeuro. (dataset). https://doi.org/{{ meta.doi }}
+{{ authors }} ({{ meta.year }}): <a href="openneuro/{{ meta.id }}">{{ meta.title }}</a>. OpenNeuro. (dataset). https://doi.org/{{ meta.doi }}
 </li>
 
 {% endfor %}
@@ -82,7 +82,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {% assign authors = authors | remove_first: "; " %}
 
 <li>
-{{ authors }} ({{ meta.publicationYear }}): <a href="{{ site.baseurl }}/dataverse/{{ datasetid }}">{{ meta.titles.title }}</a>. DataverseNL. (dataset). https://doi.org/{{ doi }}
+{{ authors }} ({{ meta.publicationYear }}): <a href="dataverse/{{ datasetid }}">{{ meta.titles.title }}</a>. DataverseNL. (dataset). https://doi.org/{{ doi }}
 </li>
 
 {% endfor %}
@@ -104,7 +104,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {% assign authors = authors | remove_first: "; " %}
 
 <li>
-{{ authors }} ({{ meta.publicationYear }}): <a href="{{ site.baseurl }}/4tu/{{ datasetid }}">{{ meta.titles.title }}</a>. 4TU.ResearchData. (dataset). https://doi.org/{{ doi }}
+{{ authors }} ({{ meta.publicationYear }}): <a href="4tu/{{ datasetid }}">{{ meta.titles.title }}</a>. 4TU.ResearchData. (dataset). https://doi.org/{{ doi }}
 </li>
 
 {% endfor %}
