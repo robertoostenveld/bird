@@ -2,8 +2,8 @@
 title: BagIt Research Data (BIRD) repository
 email: r.oostenveld@gmail.com
 description:
-baseurl: "bird"
-url: "https://robertoostenveld.github.io"
+baseurl: ""
+url: "https://robertoostenveld.github.io/bird/"
 
 # Build settings
 # theme: jekyll-theme-minimal
