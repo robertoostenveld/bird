@@ -12,8 +12,8 @@
 
     <hr>
 
-    {% assign collid = page.dataset | remove: '.' %}
-    {% assign meta = site.data.radboud.meta[collid] %}
+    {% assign datasetid = page.dataset | remove: '.' %}
+    {% assign meta = site.data.radboud.meta[datasetid] %}
 
     {% if meta != nill %}
     <table>
@@ -60,7 +60,7 @@
     </table>
     {% endif %}
     
-    {% assign collid_v = collid | append: '_v' | append: meta['Version'] %}
+    {% assign collid_v = datasetid | append: '_v' | append: meta['Version'] %}
     {% assign manifest = site.data.radboud.manifest[collid_v] %}
     {% if manifest != nill %}
     
