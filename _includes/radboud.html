@@ -1,6 +1,4 @@
-<h1>{{ page.dataset }}</h1>
-
-<hr>
+<h1>Metadata for {{ page.dataset }}</h1>
 
 {% assign datasetid = page.dataset | remove: '.' %}
 {% assign meta = site.data.radboud.meta[datasetid] %}
@@ -48,7 +46,7 @@
 
 </table>
 
-<hr>
+<h1>Files in {{ page.dataset }}</h1>
 
 {% assign collid_v = datasetid | append: '_v' | append: meta['Version'] %}
 {% assign manifest = site.data.radboud.manifest[collid_v] %}

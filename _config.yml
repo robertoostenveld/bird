@@ -5,14 +5,31 @@ description:
 baseurl: "bird"
 url: "https://robertoostenveld.github.io"
 
-# Build settings
-# theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+
+#remote_theme: pages-themes/architect
+#remote_theme: pages-themes/cayman
+#remote_theme: pages-themes/hacker
+#remote_theme: pages-themes/leap-day
+#remote_theme: pages-themes/midnight
+#remote_theme: pages-themes/minimal
+remote_theme: pages-themes/modernist
+#remote_theme: pages-themes/slate
+#remote_theme: pages-themes/time-machine
+
+#theme: dinky
+#theme: merlot
+#theme: minima
+#theme: tactile
 
 collections:
   pages:
-    output: true
+    output: false
+    permalink: /:path
+  posts:
+    output: false
     permalink: /:path
     
 exclude:

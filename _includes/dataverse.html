@@ -1,6 +1,4 @@
-<h1>{{ page.dataset }}</h1>
-
-<hr>
+<h1>Metadata for {{ page.dataset }}</h1>
 
 {% assign datasetid = page.dataset | remove: '.' %}
 {% assign meta = site.data.dataverse[datasetid].resource %}
