@@ -1,0 +1,40 @@
+<h1>{{ page.dataset }}</h1>
+
+<hr>
+
+{% assign datasetid = page.dataset | remove: '.' %}
+{% assign meta = site.data.openneuro[datasetid] %}
+
+{% assign authors = meta.author | join: "; " | default: "Unknown"  %}
+
+<table>
+  <tr>
+    <td>Title</td>
+    <td>{{ meta.title }}</td>
+  </tr>
+
+  <tr>
+    <td>Authors</td>
+    <td>{{ authors }}</td>
+  </tr>
+
+  <tr>
+    <td>PublicationDate</td>
+    <td>{{ meta.year }}</td>
+  </tr>
+
+  <tr>
+    <td>Publisher</td>
+    <td>OpenNeuro</td>
+  </tr>
+
+  <tr>
+    <td>PersistentIdentifier</td>
+    <td>{{ meta.doi }}</td>
+  </tr>
+
+  <tr>
+    <td>PersistentURL</td>
+    <td><a href="https://doi.org/{{ meta.doi }}">https://doi.org/{{ meta.doi }}</a></td>
+  </tr>
+</table>

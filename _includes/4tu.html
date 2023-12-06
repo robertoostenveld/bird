@@ -1,0 +1,46 @@
+<h1>{{ page.dataset }}</h1>
+
+<hr>
+
+{% assign datasetid = page.dataset | remove: '.' | remove: ':' %}
+{% assign meta = site.data.4tu[datasetid].resource %}
+
+{% assign doi = meta.identifier.__text %}
+
+{% assign authors = '' %}
+{% for creator in meta.creators.creator %}
+{% assign authors = authors | append: '; ' | append: creator.creatorName %}
+{% endfor %}
+{% assign authors = authors | remove_first: "; " %}
+
+<table>
+  <tr>
+    <td>Title</td>
+    <td>{{ meta.titles.title }}</td>
+  </tr>
+
+  <tr>
+    <td>Authors</td>
+    <td>{{ authors }}</td>
+  </tr>
+
+  <tr>
+    <td>PublicationDate</td>
+    <td>{{ meta.publicationYear }}</td>
+  </tr>
+
+  <tr>
+    <td>Publisher</td>
+    <td>4TU.ResearchData</td>
+  </tr>
+
+  <tr>
+    <td>PersistentIdentifier</td>
+    <td>{{ doi }}</td>
+  </tr>
+
+  <tr>
+    <td>PersistentURL</td>
+    <td><a href="https://doi.org/{{ doi }}">https://doi.org/{{ doi }}</a></td>
+  </tr>
+</table>

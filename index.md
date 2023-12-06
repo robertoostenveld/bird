@@ -11,17 +11,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <ul>
 {% for dataset in site.data.radboud.meta %}
-{% assign item = dataset[1] %}
+{% assign meta = dataset[1] %}
 
-{% assign datasetid = item.CollectionIdentifier %}
-{% assign authors = item.Authors | join: "; " | default: "Unknown"  %}
-{% assign pubdate = item.PublicationDate | split: " " %}
+{% assign datasetid = meta.CollectionIdentifier %}
+{% assign authors = meta.Authors | join: "; " | default: "Unknown"  %}
+{% assign pubdate = meta.PublicationDate | split: " " %}
 {% assign pubdate = pubdate[0] | split: "-" %}
 {% assign pubdate = pubdate[2] %}
 
 {% if datasetid %}
 <li>
-{{ authors }} ({{ pubdate }}): <a href="{{ site.baseurl }}/radboud/{{ datasetid }}">{{ item.Title }}</a> Version {{ item.Version }}. {{ item.Publisher }}. (dataset). {{ item.PersistentURL }}
+{{ authors }} ({{ pubdate }}): <a href="{{ site.baseurl }}/radboud/{{ datasetid }}">{{ meta.Title }}</a> Version {{ meta.Version }}. {{ meta.Publisher }}. (dataset). {{ meta.PersistentURL }}
 </li>
 {% endif %}
 
@@ -32,20 +32,20 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <ul>
 {% for dataset in site.data.zenodo %}
-{% assign item = dataset[1] %}
+{% assign meta = dataset[1] %}
 
 {% assign authors = '' %}
-{% for creator in item.metadata.creators %}
+{% for creator in meta.metadata.creators %}
 {% assign authors = authors | append: '; ' | append: creator.person_or_org.name %}
 {% endfor %}
 {% assign authors = authors | remove_first: "; " %}
 
-{% assign datasetid = item['id'] %}
+{% assign datasetid = meta['id'] %}
 
-{% assign pubdate = item.metadata.publication_date | split: "-" | first %}
+{% assign pubdate = meta.metadata.publication_date | split: "-" | first %}
 
 <li>
-{{ authors }} ({{ pubdate }}): <a href=""{{ site.baseurl }}/zenodo/{{ datasetid }}">{{ item['metadata']['title'] }}</a> Version {{ item.versions.index }}. Zenodo. (dataset). {{ item.links.doi }}
+{{ authors }} ({{ pubdate }}): <a href=""{{ site.baseurl }}/zenodo/{{ datasetid }}">{{ meta['metadata']['title'] }}</a> Version {{ meta.versions.index }}. Zenodo. (dataset). {{ meta.links.doi }}
 </li>
 
 {% endfor %}
@@ -55,12 +55,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <ul>
 {% for dataset in site.data.openneuro %}
-{% assign item = dataset[1] %}
+{% assign meta = dataset[1] %}
 
-{% assign authors = item.author | join: "; " | default: "Unknown"  %}
+{% assign authors = meta.author | join: "; " | default: "Unknown"  %}
 
 <li>
-{{ authors }} ({{ item.year }}): <a href="{{ site.baseurl }}/openneuro/{{ item.id }}">{{ item.title }}</a>. OpenNeuro. (dataset). https://doi.org/{{ item.doi }}
+{{ authors }} ({{ meta.year }}): <a href="{{ site.baseurl }}/openneuro/{{ meta.id }}">{{ meta.title }}</a>. OpenNeuro. (dataset). https://doi.org/{{ meta.doi }}
 </li>
 
 {% endfor %}
@@ -71,18 +71,18 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <ul>
 {% for dataset in site.data.dataverse %}
 {% assign datasetid = dataset[0] %}
-{% assign item = dataset[1].resource %}
+{% assign meta = dataset[1].resource %}
 
-{% assign doi = item.identifier.__text %}
+{% assign doi = meta.identifier.__text %}
 
 {% assign authors = '' %}
-{% for creator in item.creators.creator %}
+{% for creator in meta.creators.creator %}
 {% assign authors = authors | append: '; ' | append: creator.creatorName %}
 {% endfor %}
 {% assign authors = authors | remove_first: "; " %}
 
 <li>
-{{ authors }} ({{ item.publicationYear }}): <a href="{{ site.baseurl }}/dataverse/{{ datasetid }}">{{ item.titles.title }}</a>. DataverseNL. (dataset). https://doi.org/{{ doi }}
+{{ authors }} ({{ meta.publicationYear }}): <a href="{{ site.baseurl }}/dataverse/{{ datasetid }}">{{ meta.titles.title }}</a>. DataverseNL. (dataset). https://doi.org/{{ doi }}
 </li>
 
 {% endfor %}
@@ -93,18 +93,18 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <ul>
 {% for dataset in site.data.4tu %}
 {% assign datasetid = dataset[0] %}
-{% assign item = dataset[1].resource %}
+{% assign meta = dataset[1].resource %}
 
-{% assign doi = item.identifier.__text %}
+{% assign doi = meta.identifier.__text %}
 
 {% assign authors = '' %}
-{% for creator in item.creators.creator %}
+{% for creator in meta.creators.creator %}
 {% assign authors = authors | append: '; ' | append: creator.creatorName %}
 {% endfor %}
 {% assign authors = authors | remove_first: "; " %}
 
 <li>
-{{ authors }} ({{ item.publicationYear }}): <a href="{{ site.baseurl }}/4tu/{{ datasetid }}">{{ item.titles.title }}</a>. 4TU.ResearchData. (dataset). https://doi.org/{{ doi }}
+{{ authors }} ({{ meta.publicationYear }}): <a href="{{ site.baseurl }}/4tu/{{ datasetid }}">{{ meta.titles.title }}</a>. 4TU.ResearchData. (dataset). https://doi.org/{{ doi }}
 </li>
 
 {% endfor %}

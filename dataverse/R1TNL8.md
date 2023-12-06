@@ -1,4 +1,5 @@
 ---
 dataset: R1TNL8
-layout: dataverse
 ---
+
+{% include dataverse.html %}

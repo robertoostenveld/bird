@@ -1,4 +1,5 @@
 ---
 dataset: UKAWZM
-layout: dataverse
 ---
+
+{% include dataverse.html %}
