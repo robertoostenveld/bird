@@ -1,0 +1,69 @@
+{
+	"resource": {
+		"identifier": {
+			"_identifierType": "DOI",
+			"__text": "10.34894/9L4IV4"
+		},
+		"creators": {
+			"creator": [
+				{
+					"creatorName": "Revers, Hans",
+					"nameIdentifier": {
+						"_schemeURI": "https://orcid.org/",
+						"_nameIdentifierScheme": "ORCID",
+						"__text": "0000-0001-7239-6954"
+					},
+					"affiliation": "(Tilburg University)"
+				},
+				{
+					"creatorName": "Vroomen, Jean",
+					"nameIdentifier": {
+						"_schemeURI": "https://orcid.org/",
+						"_nameIdentifierScheme": "ORCID",
+						"__text": "0000-0001-5923-5988"
+					},
+					"affiliation": "(Tilburg University)"
+				},
+				{
+					"creatorName": "Van Deun, Katrijn",
+					"nameIdentifier": {
+						"_schemeURI": "https://orcid.org/",
+						"_nameIdentifierScheme": "ORCID",
+						"__text": "0000-0002-2271-793X"
+					},
+					"affiliation": "(Tilburg University)"
+				},
+				{
+					"creatorName": "Bastiaansen, Marcel",
+					"nameIdentifier": {
+						"_schemeURI": "https://orcid.org/",
+						"_nameIdentifierScheme": "ORCID",
+						"__text": "0000-0003-2865-7859"
+					},
+					"affiliation": "(Breda University of Applied Sciences)"
+				}
+			]
+		},
+		"titles": {
+			"title": "EEG responses to facial attractiveness, with ERP cluster analysis and MVPA classification"
+		},
+		"publisher": "DataverseNL",
+		"publicationYear": "2023",
+		"resourceType": {
+			"_resourceTypeGeneral": "Dataset"
+		},
+		"descriptions": {
+			"description": {
+				"_descriptionType": "Abstract",
+				"__text": "EEG data was recorded while 80 participants viewed 240 images of faces with varying levels of attractiveness. Participants indicated a subjective attractiveness rating following each image. These ratings were used to create subsets of the 10% highest, 10% lowest, and 10% middlemost rated images on the participant level. We performed cluster based ERP analyses (script included) and MVPA classification based on the whole scalp 3 second EEG patterns (script included)."
+			}
+		},
+		"contributors": {
+			"contributor": {
+				"contributorName": "Revers, Hans",
+				"affiliation": "(Tilburg University)",
+				"_contributorType": "ContactPerson"
+			}
+		}
+	}
+}

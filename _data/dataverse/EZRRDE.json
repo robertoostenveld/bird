@@ -1,0 +1,52 @@
+{
+	"resource": {
+		"identifier": {
+			"_identifierType": "DOI",
+			"__text": "10.34894/EZRRDE"
+		},
+		"creators": {
+			"creator": [
+      {
+				"creatorName": "Zhiyong Lei",
+				"nameIdentifier": {
+					"_schemeURI": "https://orcid.org/",
+					"_nameIdentifierScheme": "ORCID",
+					"__text": "0000-0002-7194-7862"
+				},
+				"affiliation": "(UMC Utrecht)"
+			}
+    ],
+		},
+		"titles": {
+			"title": "Vitamin C facilitates direct cardiac reprogramming by inhibiting reactive oxygen species"
+		},
+		"publisher": "DataverseNL",
+		"publicationYear": "2023",
+		"resourceType": {
+			"_resourceTypeGeneral": "Dataset"
+		},
+		"descriptions": {
+			"description": {
+				"_descriptionType": "Abstract",
+				"__text": "This study addresses the challenge of myocardial dysfunction post-MI, where the lost myocardium is replaced by fibrotic tissue. The research focuses on the strategy of direct reprogramming of fibroblasts into cardiomyocytes using Gata4, Mef2c, and Tbx5 (GMT) transcription factors. Despite the promise of this approach, its limited efficiency has been a major obstacle. we found hat Vitamin C (VitC) significantly increased the cardiac reprogramming efficiency in GMT-overexpressing fibroblasts, both in 2D and 3D models, and in both human and mouse cells. This enhancement was correlated with an initial increase in reactive oxygen species (ROS) generation, followed by a reduction upon VitC treatment, which coincided with increased reprogramming efficiency. To further confirm the robust cardiac inducing effect of VitC on direct cardiac reprogramming efficiency and explore the underlying mechanisms, we performed RNA sequencing to identify the differentially expressed genes between Doxy alone and Doxy plus VitC group. This data set contains RNA-seq of cardiac reprogrammed MEF cells with and without vitC treatment."
+			}
+		},
+		"contributors": {
+			"contributor": [
+				{
+					"contributorName": "data management",
+					"affiliation": "(UMC Utrecht)",
+					"_contributorType": "ContactPerson"
+				},
+				{
+					"contributorName": "Zhiyong Lei",
+					"affiliation": "(UMC Utrecht)",
+					"_contributorType": "ContactPerson"
+				}
+			]
+		},
+		"_xmlns": "http://datacite.org/schema/kernel-4",
+		"_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+		"_xsi:schemaLocation": "http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd"
+	}
+}

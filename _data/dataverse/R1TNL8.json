@@ -1,0 +1,45 @@
+{
+	"resource": {
+		"identifier": {
+			"_identifierType": "DOI",
+			"__text": "10.34894/R1TNL8"
+		},
+		"creators": {
+			"creator": [
+        {
+				"creatorName": "Heunis, Stephan",
+				"nameIdentifier": {
+					"_schemeURI": "https://orcid.org/",
+					"_nameIdentifierScheme": "ORCID",
+					"__text": "0000-0003-3503-9872"
+				},
+				"affiliation": "(Eindhoven University of Technology)"
+			}
+    ]
+		},
+		"titles": {
+			"title": "rt-me-fMRI: A task and resting state dataset for real-time, multi-echo fMRI methods development and validation"
+		},
+		"publisher": "DataverseNL",
+		"publicationYear": "2020",
+		"resourceType": {
+			"_resourceTypeGeneral": "Dataset"
+		},
+		"descriptions": {
+			"description": {
+				"_descriptionType": "Abstract",
+				"__text": "rt-me-fMRI is a multi-echo functional magnetic resonance imaging dataset (N=28 healthy volunteers) with four task-based and two resting state runs. Its main purpose is to advance the development of methods for real-time multi-echo fMRI analysis with applications in neurofeedback, real-time quality control, and adaptive paradigms, although the variety of experimental task paradigms can support multiple use cases. Tasks include finger tapping, emotional face and shape matching, imagined finger tapping and imagined emotion processing. Further information is available at https://github.com/jsheunis/rt-me-fMRI"
+			}
+		},
+		"contributors": {
+			"contributor": {
+				"contributorName": "Heunis, Stephan",
+				"affiliation": "(Eindhoven University of Technology)",
+				"_contributorType": "ContactPerson"
+			}
+		},
+		"_xmlns": "http://datacite.org/schema/kernel-4",
+		"_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+		"_xsi:schemaLocation": "http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd"
+	}
+}

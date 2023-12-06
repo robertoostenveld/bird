@@ -1,0 +1,47 @@
+{
+	"resource": {
+		"identifier": {
+			"_identifierType": "DOI",
+			"__text": "10.34894/UKAWZM"
+		},
+		"creators": {
+			"creator": [
+        {
+				"creatorName": "Stulp, Gert",
+				"affiliation": "(University of Groningen)"
+			}
+    ]
+		},
+		"titles": {
+			"title": "Materials for A data-driven approach shows that individuals’ characteristics are more important than their networks in predicting fertility preferences"
+		},
+		"publisher": "DataverseNL",
+		"publicationYear": "2023",
+		"resourceType": {
+			"_resourceTypeGeneral": "Dataset"
+		},
+		"descriptions": {
+			"description": {
+				"_descriptionType": "Abstract",
+				"__text": "Here you can find the materials accompanying the paper \"A data-driven approach shows that individuals’ characteristics are more important than their networks in predicting fertility preferences\""
+			}
+		},
+		"contributors": {
+			"contributor": [
+				{
+					"contributorName": "Stulp, Gert",
+					"affiliation": "(University of Groningen)",
+					"_contributorType": "ContactPerson"
+				},
+				{
+					"contributorName": "Groningen Digital Competence Centre",
+					"affiliation": "(University of Groningen)",
+					"_contributorType": "ContactPerson"
+				}
+			]
+		},
+		"_xmlns": "http://datacite.org/schema/kernel-4",
+		"_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+		"_xsi:schemaLocation": "http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd"
+	}
+}
