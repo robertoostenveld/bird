@@ -1,5 +1,5 @@
 title: BagIt Research Data (BIRD) repository
 email: r.oostenveld@gmail.com
-baseurl: ""
+baseurl: "/"
 url: ""
 theme: jekyll-theme-minimal
