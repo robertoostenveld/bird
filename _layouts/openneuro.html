@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+      {{ page.dataset }}
+    </title>
+  </head>
+
+  <body>
+    <a href='/'>back to overview</a>
+    <h1>{{ page.dataset }}</h1>
+
+    <hr>
+
+    {% assign datasetid = page.dataset | remove: '.' %}
+    {% assign item = site.data.openneuro[datasetid] %}
+    
+    {% assign authors = item.author | join: "; " | default: "Unknown"  %}
+
+    <table>
+      <tr>
+        <td>Title</td>
+        <td>{{ item.title }}</td>
+      </tr>
+
+      <tr>
+        <td>Authors</td>
+        <td>{{ authors }}</td>
+      </tr>
+
+      <tr>
+        <td>PublicationDate</td>
+        <td>{{ item.year }}</td>
+      </tr>
+
+      <tr>
+        <td>Publisher</td>
+        <td>OpenNeuro</td>
+      </tr>
+
+      <tr>
+        <td>PersistentIdentifier</td>
+        <td>{{ item.doi }}</td>
+      </tr>
+
+      <tr>
+        <td>PersistentURL</td>
+        <td><a href="https://doi.org/{{ item.doi }}">https://doi.org/{{ item.doi }}</a></td>
+      </tr>
+    </table>
+
+    <hr>
+
+  </body>
+</html>
