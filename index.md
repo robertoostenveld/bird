@@ -45,7 +45,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {% assign pubdate = meta.metadata.publication_date | split: "-" | first %}
 
 <li>
-{{ authors }} ({{ pubdate }}): <a href=""{{ site.baseurl }}/zenodo/{{ datasetid }}">{{ meta['metadata']['title'] }}</a> Version {{ meta.versions.index }}. Zenodo. (dataset). {{ meta.links.doi }}
+{{ authors }} ({{ pubdate }}): <a href="{{ site.baseurl }}/zenodo/{{ datasetid }}">{{ meta['metadata']['title'] }}</a> Version {{ meta.versions.index }}. Zenodo. (dataset). {{ meta.links.doi }}
 </li>
 
 {% endfor %}
