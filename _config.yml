@@ -3,3 +3,7 @@ email: r.oostenveld@gmail.com
 baseurl: "/"
 url: ""
 theme: jekyll-theme-minimal
+
+exclude:
+  - README.md
+  - Gemfile*
