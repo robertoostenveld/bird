@@ -13,8 +13,8 @@ research data repository server.
 
 Please note that at this moment it does not make use of the txt file
 metadata format of the BagIt standard; it rather uses a set of repository
-specific metadata files. In the future I can imagine that tools could be 
-implemented to convert the repository specific metadata (and manifest 
+specific metadata files. In the future I can imagine that tools could be
+implemented to convert the repository specific metadata (and manifest
 file list) to the BagIt specification.
 
 ## Metadata
@@ -42,10 +42,10 @@ download server.
 
 ## Existing datasets and repositories
 
-The project currently makes use of a small number of public datasets 
+The project currently makes use of a small number of public datasets
 from the following research data repositories:
 
-- <https://data.ru.nl> 
+- <https://data.ru.nl>
 - <https://4tu.ru.nl>
 - <https://dataverse.nl>
 - <https://openneuro.org>
@@ -65,5 +65,4 @@ should install Ruby and Gem, and run
 
 Subsequently, you can convert the markdown into html documents with
 
-    bundle exec jekyll serve --livereload
-
+    bundle exec jekyll serve --livereload  --incremental

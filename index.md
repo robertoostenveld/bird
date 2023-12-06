@@ -1,5 +1,6 @@
 ---
 title: BagIt Research Data (BIRD) repository
+layout: default
 ---
 
 # BagIt Research Data (BIRD) repository
