@@ -65,7 +65,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {% endfor %}
 </ul>
 
-## Dataverse datasets
+## DataverseNL datasets
 
 <ul>
 {% for dataset in site.data.dataverse %}
@@ -81,7 +81,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {% assign authors = authors | remove_first: "; " %}
 
 <li>
-{{ authors }} ({{ item.publicationYear }}): <a href="/dataverse/{{ datasetid }}">{{ item.titles.title }}</a>. Dataverse. (dataset). https://doi.org/{{ doi }}
+{{ authors }} ({{ item.publicationYear }}): <a href="/dataverse/{{ datasetid }}">{{ item.titles.title }}</a>. DataverseNL. (dataset). https://doi.org/{{ doi }}
 </li>
 
 {% endfor %}
