@@ -12,8 +12,8 @@
 
     <hr>
 
-    {% assign collid = page.dataset | remove: '.' %}
-    {% assign item = site.data.zenodo[collid] %}
+    {% assign datasetid = page.dataset | remove: '.' %}
+    {% assign item = site.data.zenodo[datasetid] %}
 
     {% assign authors = '' %}
     {% for creator in item.metadata.creators %}
