@@ -1,0 +1,106 @@
+{
+	"resource": {
+		"identifier": {
+			"_identifierType": "DOI",
+			"__text": "10.4121/14791845.v1"
+		},
+		"creators": {
+			"creator": [
+				{
+					"creatorName": "Angelique Volfart"
+				},
+				{
+					"creatorName": "Grace E. Rice"
+				},
+				{
+					"creatorName": "Matthew A. Lambon Ralph"
+				},
+				{
+					"creatorName": "Bruno Rossion",
+					"givenName": "Bruno",
+					"familyName": "Rossion",
+					"nameIdentifier": {
+						"_nameIdentifierScheme": "https://orcid.org/",
+						"__text": "0000-0002-1845-3935"
+					}
+				}
+			]
+		},
+		"titles": {
+			"title": "Electrophysiological data, supplementary to the paper \"Implicit, automatic semantic word categorisation in the left occipito-temporal cortex as revealed by fast periodic visual stimulation\""
+		},
+		"publisher": "4TU.ResearchData",
+		"publicationYear": "2021",
+		"resourceType": {
+			"_resourceTypeGeneral": "Dataset",
+			"__text": "Dataset"
+		},
+		"subjects": {
+			"subject": [
+				{
+					"_subjectScheme": "Australian and New Zealand Standard Research Classification (ANZSRC), 2008",
+					"_classificationCode": "1702",
+					"__text": "Cognitive Sciences"
+				},
+				{
+					"_subjectScheme": "Australian and New Zealand Standard Research Classification (ANZSRC), 2008",
+					"_classificationCode": "0606",
+					"__text": "Physiology"
+				},
+				{
+					"_subjectScheme": "Australian and New Zealand Standard Research Classification (ANZSRC), 2008",
+					"_classificationCode": "1109",
+					"__text": "Neurosciences"
+				},
+				"EEG data",
+				"frequency-tagging",
+				"semantic memory"
+			]
+		},
+		"contributors": {
+			"contributor": {
+				"contributorName": {
+					"_nameType": "Organizational",
+					"__text": "Université Catholique de Louvain"
+				},
+				"_contributorType": "Other"
+			}
+		},
+		"dates": {
+			"date": {
+				"_dateType": "Issued",
+				"__text": "2021-12-30"
+			}
+		},
+		"relatedIdentifiers": {
+			"relatedIdentifier": [
+				{
+					"_relatedIdentifierType": "DOI",
+					"_relationType": "IsSupplementTo",
+					"__text": "10.1016/j.neuroimage.2021.118228"
+				},
+				{
+					"_relatedIdentifierType": "URL",
+					"_relationType": "References",
+					"__text": "https://face-categorization-lab.webnode.com/publications/"
+				}
+			]
+		},
+		"version": "1",
+		"rightsList": {
+			"rights": {
+				"_rightsURI": "https://creativecommons.org/publicdomain/zero/1.0/",
+				"__text": "CC0"
+			}
+		},
+		"descriptions": {
+			"description": {
+				"_descriptionType": "Abstract",
+				"__text": "Electrophysiological data used in the following article: Volfart, A., Rice, G.E., Lambon Ralph, M.A., & Rossion, B. (2021). Implicit, automatic semantic word categorisation in the left occipito-temporal cortex as revealed by fast periodic visual stimulation. NeuroImage.<div>Data of 14 participants tested with a semantic word categorisation paradigm in fast periodic visual stimulation (FPVS) and scalp EEG. The epoched EEG data of each individual, before FFT, are included in the dataset (format Letswave 5, see https://www.letswave.org/). </div>"
+			}
+		},
+		"_xmlns": "http://datacite.org/schema/kernel-4",
+		"_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+		"_xsi:schemaLocation": "http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.4/metadata.xsd"
+	}
+}

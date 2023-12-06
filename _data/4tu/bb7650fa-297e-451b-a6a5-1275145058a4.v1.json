@@ -1,0 +1,83 @@
+{
+	"resource": {
+		"identifier": {
+			"_identifierType": "DOI",
+			"__text": "10.4121/bb7650fa-297e-451b-a6a5-1275145058a4.v1"
+		},
+		"creators": {
+			"creator": [
+        {
+				"creatorName": "Juan Carlos Prazmowski",
+				"givenName": "Juan Carlos",
+				"familyName": "Prazmowski"
+			}
+    ]
+		},
+		"titles": {
+			"title": "Early Stage Design Optimization for Passive Strategy Workflow (ESDOPS Workflow)"
+		},
+		"publisher": "4TU.ResearchData",
+		"publicationYear": "2023",
+		"resourceType": {
+			"_resourceTypeGeneral": "Dataset",
+			"__text": "Dataset"
+		},
+		"subjects": {
+			"subject": [
+				{
+					"_subjectScheme": "Australian and New Zealand Standard Research Classification (ANZSRC), 2008",
+					"_classificationCode": "1204",
+					"__text": "Engineering Design"
+				},
+				{
+					"_subjectScheme": "Australian and New Zealand Standard Research Classification (ANZSRC), 2008",
+					"_classificationCode": "12",
+					"__text": "Built Environment and Design"
+				},
+				"workflow",
+				"climate-responsive",
+				"multi-objective optimization",
+				"human ui",
+				"grasshopper",
+				"wallacei",
+				"excel",
+				"multi-objective comparison"
+			]
+		},
+		"contributors": {
+			"contributor": {
+				"contributorName": {
+					"_nameType": "Organizational",
+					"__text": "TU Delft, Faculty of Architecture and the Built Environment, Architecture, Urbanism and Building Sciences"
+				},
+				"_contributorType": "Other"
+			}
+		},
+		"dates": {
+			"date": {
+				"_dateType": "Issued",
+				"__text": "2023-12-05"
+			}
+		},
+		"language": "en",
+		"formats": {
+			"format": "Rhino and Grasshopper file with folder structure and excel files for data recording"
+		},
+		"version": "1",
+		"rightsList": {
+			"rights": {
+				"_rightsURI": "https://creativecommons.org/licenses/by-sa/4.0/",
+				"__text": "CC BY-SA 4.0"
+			}
+		},
+		"descriptions": {
+			"description": {
+				"_descriptionType": "Abstract",
+				"__text": "<p>This folder contains the developed workflow described in “Early Stage Optimization Workflow Towards a Climate-Responsive Design” where a multi-objective comparison process can be accessed through the developed user-interface using HumanUI and a multi-objective optimization can be processed through Wallacei.</p><p>The folder contains:</p><ul><li>Grasshopper workflow with the folder structure.</li><li>READ ME file included with instructions.</li></ul><p>Please read the instructions carefully as the file references are required for the workflow's functionality.</p>"
+			}
+		},
+		"_xmlns": "http://datacite.org/schema/kernel-4",
+		"_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+		"_xsi:schemaLocation": "http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.4/metadata.xsd"
+	}
+}

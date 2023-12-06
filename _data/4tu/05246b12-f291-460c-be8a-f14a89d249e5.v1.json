@@ -1,0 +1,136 @@
+{
+	"resource": {
+		"identifier": {
+			"_identifierType": "DOI",
+			"__text": "10.4121/05246b12-f291-460c-be8a-f14a89d249e5.v1"
+		},
+		"creators": {
+			"creator": [
+				{
+					"creatorName": "Attila Lengyel",
+					"nameIdentifier": {
+						"_nameIdentifierScheme": "https://orcid.org/",
+						"__text": "0000-0002-2982-2003"
+					}
+				},
+				{
+					"creatorName": "Sourav Garg",
+					"givenName": "Sourav",
+					"familyName": "Garg",
+					"nameIdentifier": {
+						"_nameIdentifierScheme": "https://orcid.org/",
+						"__text": "0000-0001-6068-3307"
+					}
+				},
+				{
+					"creatorName": "Michael Milford",
+					"givenName": "Michael",
+					"familyName": "Milford",
+					"nameIdentifier": {
+						"_nameIdentifierScheme": "https://orcid.org/",
+						"__text": "0000-0002-5162-1793"
+					}
+				},
+				{
+					"creatorName": "Jan van Gemert",
+					"givenName": "Jan",
+					"familyName": "van Gemert",
+					"nameIdentifier": {
+						"_nameIdentifierScheme": "https://orcid.org/",
+						"__text": "0000-0002-6913-0482"
+					}
+				}
+			]
+		},
+		"titles": {
+			"title": "CODaN: Common Objects Day and Night, an image classification dataset."
+		},
+		"publisher": "4TU.ResearchData",
+		"publicationYear": "2023",
+		"resourceType": {
+			"_resourceTypeGeneral": "Software",
+			"__text": "Software"
+		},
+		"subjects": {
+			"subject": [
+				{
+					"_subjectScheme": "Australian and New Zealand Standard Research Classification (ANZSRC), 2008",
+					"_classificationCode": "0801",
+					"__text": "Artificial Intelligence and Image Processing"
+				},
+				{
+					"_subjectScheme": "Australian and New Zealand Standard Research Classification (ANZSRC), 2008",
+					"_classificationCode": "08",
+					"__text": "Information and Computing Sciences"
+				},
+				"color invariants",
+				"day-night",
+				"computer vision",
+				"image classification",
+				"domain adaptation"
+			]
+		},
+		"contributors": {
+			"contributor": [
+				{
+					"contributorName": {
+						"_nameType": "Organizational",
+						"__text": "TU Delft, TU Delft, Faculty of Electrical Engineering, Mathematics and Computer Science, Department of Intelligent Systems, Computer Vision Lab"
+					},
+					"_contributorType": "Other"
+				},
+				{
+					"contributorName": {
+						"_nameType": "Organizational",
+						"__text": "QUT Centre for Robotics, Queensland University of Technology (QUT), Brisbane, Australia"
+					},
+					"_contributorType": "Other"
+				}
+			]
+		},
+		"dates": {
+			"date": {
+				"_dateType": "Issued",
+				"__text": "2023-11-29"
+			}
+		},
+		"language": "en",
+		"relatedIdentifiers": {
+			"relatedIdentifier": [
+				{
+					"_relatedIdentifierType": "DOI",
+					"_relationType": "IsSupplementTo",
+					"__text": "10.1109/ICCV48922.2021.00436"
+				},
+				{
+					"_relatedIdentifierType": "URL",
+					"_relationType": "References",
+					"__text": "https://research.tudelft.nl/en/publications/zero-shot-day-night-domain-adaptation-with-a-physics-prior"
+				}
+			]
+		},
+		"version": "1",
+		"rightsList": {
+			"rights": {
+				"_rightsURI": "https://opensource.org/licenses/MIT",
+				"__text": "MIT"
+			}
+		},
+		"descriptions": {
+			"description": {
+				"_descriptionType": "Abstract",
+				"__text": "<p>Common Objects Day and Night (CODaN) is an image classification dataset for zero-shot day-night domain adaptation / generalization.</p><p><br></p><p>The CODaN dataset consists of 15,500 224x224 colour images in 10 classes, with 1,550 images per class. There are 10,000 training images, 500 validation images, 2,500 daytime test images and 2,500 nighttime test images.</p><p><br></p><p>The dataset is collected from the excellent&nbsp;<a href=\"https://cocodataset.org/#home\" target=\"_blank\" style=\"color: rgb(31, 35, 40);\">COCO</a>,&nbsp;<a href=\"http://imagenet.stanford.edu/\" target=\"_blank\" style=\"color: rgb(31, 35, 40);\">ImageNet</a>&nbsp;and&nbsp;<a href=\"https://github.com/cs-chan/Exclusively-Dark-Image-Dataset\" target=\"_blank\" style=\"color: rgb(31, 35, 40);\">ExDark</a>&nbsp;datasets. All images are filtered and cropped such that they have the same dimensions and are completely mutually exclusive, i.e. do not contain objects of different classes, nor do belong objects to multiple classes.</p>"
+			}
+		},
+		"fundingReferences": {
+			"fundingReference": {
+				"funderName": "Dutch Research Council",
+				"awardNumber": "VI.Vidi.192.100",
+				"awardTitle": "Tabula Inscripta: Prior knowledge for deep learning"
+			}
+		},
+		"_xmlns": "http://datacite.org/schema/kernel-4",
+		"_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+		"_xsi:schemaLocation": "http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.4/metadata.xsd"
+	}
+}
