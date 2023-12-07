@@ -5,11 +5,12 @@ This is a demonstration project inspired by the
 and network transfer of arbitrary digital content, including
 research data.
 
-I figured that if research datasets were represented as "Bags"
-with metadata, including pointers to the actual data on a download
-server using the `fetch.txt` file, that writing a repository server
-would become rather simple. This project is an exploration into such
-a research data repository server.
+With research datasets represented as "Bags" with metadata in
+the `bag-info.txt` file, and the pointers to the actual data
+files on a download server listed in the `fetch.txt` file,
+writing a repository server becomes relatively simple. This project
+is an exploration into such a research data repository server.
+
 
 At this moment it only includes a few examples with the BagIt
 metadata format; most of the examples here use various metadata

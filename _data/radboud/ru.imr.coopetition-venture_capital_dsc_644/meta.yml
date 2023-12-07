@@ -22,7 +22,10 @@ State: Published
 Publisher: Radboud University
 DataUseAgreement: CC0-1.0
 EthicalApprovals: ''
-FreeKeywords: ['High-tech startups, Investors, Successful exiting']
+FreeKeywords:
+  - 'High-tech startups'
+  - 'Investors'
+  - 'Successful exiting'
 SFNKeywords: ['']
 MeSHKeywords: ['']
 Version: '1'
@@ -31,12 +34,12 @@ AssociatedData: ''
 AssociatedAnalysisTools: ''
 AssociatedPreregistrations: ''
 Authors:
-- ['Wang, X.']
-- [' Aalbers, H.L.']
+- 'Wang, X.'
+- 'Aalbers, H.L.'
 Managers:
-- ['Wang, X.']
-- [' Manhardt, F.']
-- [' Aalbers, H.L.']
+- 'Wang, X.'
+- 'Manhardt, F.'
+- 'Aalbers, H.L.'
 Contributors: ['']
 NumberOfFiles: '5'
 Size: '19597463'

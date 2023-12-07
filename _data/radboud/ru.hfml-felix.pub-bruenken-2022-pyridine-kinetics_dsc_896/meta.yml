@@ -30,11 +30,11 @@ Publisher: Radboud University
 DataUseAgreement: CC-BY-NC-ND-4.0
 EthicalApprovals: ''
 FreeKeywords:
-- [spectroscopy]
-- [' reaction kinetics']
-- [' astrochemistry']
-- [' PAH']
-- [' FELIX']
+- 'spectroscopy'
+- 'reaction kinetics'
+- 'astrochemistry'
+- 'PAH'
+- 'FELIX'
 SFNKeywords: ['']
 MeSHKeywords: ['']
 Version: '1'
@@ -43,11 +43,11 @@ AssociatedData: ''
 AssociatedAnalysisTools: 'URL: https://github.com/aravindhnivas/FELion_GUI3'
 AssociatedPreregistrations: ''
 Authors:
-- ['Rap, D.B.']
-- [' Johanna G.M. Schrauwen']
-- [' Aravindh N. Marimuthu']
-- [' Britta Redlich']
-- [' Brünken, S.']
+- 'Rap, D.B.'
+- 'Johanna G.M. Schrauwen'
+- 'Aravindh N. Marimuthu'
+- 'Britta Redlich'
+- 'Brünken, S.'
 Managers: ['Brünken, S.']
 Contributors: ['Rap, D.B.']
 NumberOfFiles: '45'

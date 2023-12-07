@@ -22,10 +22,10 @@ Publisher: Radboud University
 DataUseAgreement: CC0-1.0
 EthicalApprovals: ''
 FreeKeywords:
-- [privacy]
-- [' online tracking']
-- [' data exfiltration']
-- [' JavaScript']
+- 'privacy'
+- 'online tracking'
+- 'data exfiltration'
+- 'JavaScript'
 SFNKeywords: ['']
 MeSHKeywords: ['']
 Version: '1'
@@ -34,10 +34,10 @@ AssociatedData: ''
 AssociatedAnalysisTools: ''
 AssociatedPreregistrations: ''
 Authors:
-- [Asuman Senol]
-- [' Acar, Gunes']
-- [' Mathias Humbert']
-- [' Frederik Zuiderveen Borgesius']
+- 'Asuman Senol'
+- 'Acar, Gunes'
+- 'Mathias Humbert'
+- 'Frederik Zuiderveen Borgesius'
 Managers: ['Acar, Gunes']
 Contributors: ['']
 NumberOfFiles: '14'

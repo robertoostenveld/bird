@@ -30,11 +30,11 @@ Publisher: Radboud University
 DataUseAgreement: CC-BY-SA-4.0
 EthicalApprovals: ''
 FreeKeywords:
-- [theory of mind]
-- [' mentalizing']
-- [' language production']
-- [' fMRI']
-- [' communication']
+- 'theory of mind'
+- 'mentalizing'
+- 'language production'
+- 'fMRI'
+- 'communication'
 SFNKeywords: ['']
 MeSHKeywords: ['']
 Version: '1'
@@ -43,13 +43,13 @@ AssociatedData: ''
 AssociatedAnalysisTools: ''
 AssociatedPreregistrations: ''
 Authors:
-- [Flora Vanlangendonck]
-- [' Willems, R.M.']
-- [' Hagoort, P.']
+- 'Flora Vanlangendonck'
+- 'Willems, R.M.'
+- 'Hagoort, P.'
 Managers:
-- ['Willems, R.M.']
-- [' Hagoort, P.']
-Contributors: [Flora Vanlangendonck]
+- 'Willems, R.M.'
+- 'Hagoort, P.'
+Contributors: ['Flora Vanlangendonck']
 NumberOfFiles: '41255'
 Size: '12140228477'
 Quota: '154618822656'

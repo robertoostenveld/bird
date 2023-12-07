@@ -1,19 +1,33 @@
 <h1>Metadata for {{ page.name | remove: '.md' }}</h1>
 
 {% assign datasetid = page.name | remove: '.md' | remove: '.' | remove: ':' %}
-{% assign meta = site.data.radboud.meta[datasetid] %}
+{% assign meta = site.data.radboud[datasetid].meta %}
 
 <table>
 
-  {% assign keys = 'Title,Authors,Description,PersistentIdentifier'  | split: ',' %}
-  {% for key in keys %}
-  {% if meta[key].size != 0 %}
+  {% assign key = 'Title' %}
   <tr>
     <td>{{ key }}</td>
     <td>{{ meta[key] }}</td>
   </tr>
-  {% endif %}
-  {% endfor %}
+
+  {% assign key = 'Authors' %}
+  <tr>
+    <td>{{ key }}</td>
+    <td>{{ meta[key] | join: "; " }}</td>
+  </tr>
+
+  {% assign key = 'Description' %}
+  <tr>
+    <td>{{ key }}</td>
+    <td>{{ meta[key] }}</td>
+  </tr>
+
+  {% assign key = 'PersistentIdentifier' %}
+  <tr>
+    <td>{{ key }}</td>
+    <td>{{ meta[key] }}</td>
+  </tr>
 
   {% assign key = 'PersistentURL' %}
   <tr>
@@ -33,7 +47,25 @@
     <td><a href="https://data.ru.nl/doc/dua/{{ meta[key] }}.html">{{ meta[key] }}</a></td>
   </tr>
   
-  {% assign keys = 'FreeKeywords,SFNKeywords,MeSHKeywords,Version,AssociatedPublications,AssociatedData,AssociatedAnalysisTools,AssociatedPreregistrations,NumberOfFiles,Size,CreationDate,PublicationDate,LastUpdateDate' | split: ',' %}
+  {% assign key = 'FreeKeywords' %}
+  <tr>
+    <td>{{ key }}</td>
+    <td>{{ meta[key] | join: "; " }}</td>
+  </tr>
+  
+  {% assign key = 'SFNKeywords' %}
+  <tr>
+    <td>{{ key }}</td>
+    <td>{{ meta[key] | join: "; " }}</td>
+  </tr>
+  
+  {% assign key = 'MeSHKeywords' %}
+  <tr>
+    <td>{{ key }}</td>
+    <td>{{ meta[key] | join: "; " }}</td>
+  </tr>
+  
+  {% assign keys = 'Version,AssociatedPublications,AssociatedData,AssociatedAnalysisTools,AssociatedPreregistrations,NumberOfFiles,Size,CreationDate,PublicationDate,LastUpdateDate' | split: ',' %}
 
   {% for key in keys %}
   {% if meta[key].size != 0 %}
@@ -48,8 +80,7 @@
 
 <h1>Files in {{ page.name | remove: '.md' }}</h1>
 
-{% assign datasetid_v = datasetid | append: '_v' | append: meta['Version'] %}
-{% assign manifest = site.data.radboud.manifest[datasetid_v] %}
+{% assign manifest = site.data.radboud[datasetid].manifest %}
 
 {% assign BaseURL = "https://public.data.ru.nl" %}
 {% assign OrganisationalUnit = meta.OrganisationalUnit | downcase %}

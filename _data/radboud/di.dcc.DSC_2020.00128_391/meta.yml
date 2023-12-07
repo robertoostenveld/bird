@@ -29,12 +29,12 @@ Publisher: Radboud University
 DataUseAgreement: ODC-ODbL-1.0
 EthicalApprovals: ''
 FreeKeywords:
-- [Theta Oscillations]
-- [' Surprise']
-- [' Infants']
-- [' Infant-directed Actions']
-- [' EEG']
-- [' Attention']
+- 'Theta Oscillations'
+- 'Surprise'
+- 'Infants'
+- 'Infant-directed Actions'
+- 'EEG'
+- 'Attention'
 SFNKeywords: ['']
 MeSHKeywords: ['']
 Version: '1'
@@ -43,16 +43,16 @@ AssociatedData: ''
 AssociatedAnalysisTools: ''
 AssociatedPreregistrations: ''
 Authors:
-- ['Meyer, M.']
-- [' Jo van Schaik']
-- [' Poli, F.']
-- [' Hunnius, S.']
+- 'Meyer, M.'
+- 'Jo van Schaik'
+- 'Poli, F.'
+- 'Hunnius, S.'
 Managers:
-- ['Meyer, M.']
-- [' Hunnius, S.']
+- 'Meyer, M.'
+- 'Hunnius, S.'
 Contributors:
-- ['Oostenveld, R.']
-- [' Didi  Lamers']
+- 'Oostenveld, R.'
+- 'Didi  Lamers'
 NumberOfFiles: '576'
 Size: '1619655312'
 Quota: '216895848448'
