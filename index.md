@@ -135,3 +135,20 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% endfor %}
 </ul>
+
+## BagIt datasets
+
+<ul>
+{% for dataset in site.data.bagit %}
+{% assign datasetid = dataset[0] %}
+{% assign meta = site.data.bagit[datasetid].bag-info %}
+
+{% assign pubdate = meta.Bagging-Date | split: '-' %}
+{% assign pubdate = pubdate[0] %}
+
+<li>
+{{ meta.Contact-Name | join: "; " }} ({{ pubdate }}): <a href="bagit/{{ datasetid }}">{{ meta.External-Description }}</a>. {{ meta.Source-Organization }}. (dataset).
+</li>
+
+{% endfor %}
+</ul>

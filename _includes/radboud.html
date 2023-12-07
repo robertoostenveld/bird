@@ -46,10 +46,10 @@
 
 </table>
 
-<h1>Files in {{ page.dataset }}</h1>
+<h1>Files in {{ page.name | remove: '.md' }}</h1>
 
-{% assign collid_v = datasetid | append: '_v' | append: meta['Version'] %}
-{% assign manifest = site.data.radboud.manifest[collid_v] %}
+{% assign datasetid_v = datasetid | append: '_v' | append: meta['Version'] %}
+{% assign manifest = site.data.radboud.manifest[datasetid_v] %}
 
 {% assign BaseURL = "https://public.data.ru.nl" %}
 {% assign OrganisationalUnit = meta.OrganisationalUnit | downcase %}

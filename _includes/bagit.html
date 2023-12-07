@@ -1,0 +1,88 @@
+<h1>Metadata for {{ page.name | remove: '.md' }}</h1>
+
+{% assign datasetid = page.name | remove: '.md' | remove: '.' | remove: ':' %}
+{% assign meta = site.data.bagit[datasetid].bag-info %}
+
+<table>
+  <tr>
+    <td>Title</td>
+    <td>{{ meta.External-Description }}</td>
+  </tr>
+
+  <tr>
+    <td>Authors</td>
+    <td>{{ meta.Contact-Name | join: "; " }}</td>
+  </tr>
+
+  <tr>
+    <td>ContactEmail</td>
+    <td>{{ meta.Contact-Email }}</td>
+  </tr>
+
+  <tr>
+    <td>PublicationDate</td>
+    <td>{{ meta.Bagging-Date }}</td>
+  </tr>
+
+  <tr>
+    <td>Publisher</td>
+    <td> {{ meta.Source-Organization }}</td>
+  </tr>
+
+  <tr>
+    <td>PersistentIdentifier</td>
+    <td>{{ meta.External-Identifier }}</td>
+  </tr>
+
+  <tr>
+    <td>PersistentURL</td>
+    <td>Unknown</td>
+  </tr>
+</table>
+
+{% assign manifest-sha256 = site.data.bagit[datasetid].manifest-sha256 %}
+{% assign manifest-sha1 = site.data.bagit[datasetid].manifest-sha1 %}
+{% assign manifest-md5 = site.data.bagit[datasetid].manifest-md5 %}
+{% assign fetch = site.data.bagit[datasetid].fetch %}
+
+{% if manifest-sha256 %}
+<h1>Files in {{ page.name | remove: '.md' }}</h1>
+ <table>
+{% for row in manifest-sha256 %}
+<tr>
+  <td>{{ row.filename }}</td>
+</tr>
+{% endfor %}
+</table>
+
+{% elsif manifest-sha1 %}
+<h1>Files in {{ page.name | remove: '.md' }}</h1>
+ <table>
+{% for row in manifest-sha1 %}
+<tr>
+  <td>{{ row.filename }}</td>
+</tr>
+{% endfor %}
+</table>
+
+{% elsif manifest-md5 %}
+<h1>Files in {{ page.name | remove: '.md' }}</h1>
+ <table>
+{% for row in manifest-md5 %}
+<tr>
+  <td>{{ row.filename }}</td>
+</tr>
+{% endfor %}
+</table>
+{% endif %}
+
+{% if fetch %}
+<h1>External files in {{ page.name | remove: '.md' }}</h1>
+<table>
+{% for row in fetch %}
+<tr>
+  <td><a href="{{ row.url }}">{{ row.filename }}</a></td>
+</tr>
+{% endfor %}
+</table>
+{% endif %}
