@@ -3,9 +3,39 @@ title: BagIt Research Data (BIRD) repository
 layout: default
 ---
 
-# BagIt Research Data (BIRD) repository
+This is a demonstration project inspired by the
+[BagIt](https://en.wikipedia.org/wiki/BagIt) standard for storage
+and network transfer of arbitrary digital content, including
+research data.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I figured that if research datasets were represented as "Bags"
+with metadata, including pointers to the actual data on a download
+server using the `fetch.txt` file, that writing a repository server
+would become rather simple. This project is an exploration into such
+a research data repository server.
+
+At this moment it only includes a few examples with the BagIt
+metadata format; most of the examples here use various metadata
+schemas from other repositories. In the future I can imagine
+that tools could be implemented to convert the repository specific
+metadata (and manifest file list) to the BagIt specification.
+
+## BagIt datasets
+
+<ul>
+{% for dataset in site.data.bagit %}
+{% assign datasetid = dataset[0] %}
+{% assign meta = site.data.bagit[datasetid].bag-info %}
+
+{% assign pubdate = meta.Bagging-Date | split: '-' %}
+{% assign pubdate = pubdate[0] %}
+
+<li>
+{{ meta.Contact-Name | join: "; " }} ({{ pubdate }}): <a href="landingpage/bagit/{{ datasetid }}">{{ meta.External-Description }}</a>. {{ meta.Source-Organization }}. (dataset).
+</li>
+
+{% endfor %}
+</ul>
 
 ## Radboud datasets
 
@@ -21,7 +51,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% if datasetid %}
 <li>
-{{ authors }} ({{ pubdate }}): <a href="radboud/{{ datasetid }}">{{ meta.Title }}</a>. Version {{ meta.Version }}. {{ meta.Publisher }}. (dataset). {{ meta.PersistentURL }}
+{{ authors }} ({{ pubdate }}): <a href="landingpage/radboud/{{ datasetid }}">{{ meta.Title }}</a>. Version {{ meta.Version }}. {{ meta.Publisher }}. (dataset). {{ meta.PersistentURL }}
 </li>
 {% endif %}
 
@@ -45,7 +75,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {% assign pubdate = meta.metadata.publication_date | split: "-" | first %}
 
 <li>
-{{ authors }} ({{ pubdate }}): <a href="zenodo/{{ datasetid }}">{{ meta['metadata']['title'] }}</a>. Version {{ meta.versions.index }}. Zenodo. (dataset). {{ meta.links.doi }}
+{{ authors }} ({{ pubdate }}): <a href="landingpage/zenodo/{{ datasetid }}">{{ meta['metadata']['title'] }}</a>. Version {{ meta.versions.index }}. Zenodo. (dataset). {{ meta.links.doi }}
 </li>
 
 {% endfor %}
@@ -60,7 +90,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {% assign authors = meta.author | join: "; " | default: "Unknown"  %}
 
 <li>
-{{ authors }} ({{ meta.year }}): <a href="openneuro/{{ meta.id }}">{{ meta.title }}</a>. OpenNeuro. (dataset). https://doi.org/{{ meta.doi }}
+{{ authors }} ({{ meta.year }}): <a href="landingpage/openneuro/{{ meta.id }}">{{ meta.title }}</a>. OpenNeuro. (dataset). https://doi.org/{{ meta.doi }}
 </li>
 
 {% endfor %}
@@ -82,7 +112,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {% assign authors = authors | remove_first: "; " %}
 
 <li>
-{{ authors }} ({{ meta.publicationYear }}): <a href="dataverse/{{ datasetid }}">{{ meta.titles.title }}</a>. DataverseNL. (dataset). https://doi.org/{{ doi }}
+{{ authors }} ({{ meta.publicationYear }}): <a href="landingpage/dataverse/{{ datasetid }}">{{ meta.titles.title }}</a>. DataverseNL. (dataset). https://doi.org/{{ doi }}
 </li>
 
 {% endfor %}
@@ -108,7 +138,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {% assign pubdate = pubdate[0] %}
   
 <li>
-{{ authors }} ({{ pubdate }}): <a href="yoda/{{ datasetid }}">{{ meta.Title }}</a>. Version {{ meta.Version }}. University Utrecht. (dataset).
+{{ authors }} ({{ pubdate }}): <a href="landingpage/yoda/{{ datasetid }}">{{ meta.Title }}</a>. Version {{ meta.Version }}. University Utrecht. (dataset).
 </li>
 
 {% endfor %}
@@ -130,24 +160,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {% assign authors = authors | remove_first: "; " %}
 
 <li>
-{{ authors }} ({{ meta.publicationYear }}): <a href="4tu/{{ datasetid }}">{{ meta.titles.title }}</a>. 4TU.ResearchData. (dataset). https://doi.org/{{ doi }}
-</li>
-
-{% endfor %}
-</ul>
-
-## BagIt datasets
-
-<ul>
-{% for dataset in site.data.bagit %}
-{% assign datasetid = dataset[0] %}
-{% assign meta = site.data.bagit[datasetid].bag-info %}
-
-{% assign pubdate = meta.Bagging-Date | split: '-' %}
-{% assign pubdate = pubdate[0] %}
-
-<li>
-{{ meta.Contact-Name | join: "; " }} ({{ pubdate }}): <a href="bagit/{{ datasetid }}">{{ meta.External-Description }}</a>. {{ meta.Source-Organization }}. (dataset).
+{{ authors }} ({{ meta.publicationYear }}): <a href="landingpage/4tu/{{ datasetid }}">{{ meta.titles.title }}</a>. 4TU.ResearchData. (dataset). https://doi.org/{{ doi }}
 </li>
 
 {% endfor %}

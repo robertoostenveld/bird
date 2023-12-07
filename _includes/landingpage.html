@@ -1,4 +1,2 @@
 
-{% assign schema=page.dir | remove: '/' %}
-
-{% include {{ schema }}.html %}
+{% include {{ page.dir | split: '/' | last }}.html %}

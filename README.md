@@ -11,11 +11,11 @@ server using the `fetch.txt` file, that writing a repository server
 would become rather simple. This project is an exploration into such
 a research data repository server.
 
-Please note that at this moment it does not make use of the metadata
-format of the BagIt standard; it rather uses a set of repository
-specific metadata files. In the future I can imagine that tools could be
-implemented to convert the repository specific metadata (and manifest
-file list) to the BagIt specification.
+At this moment it only includes a few examples with the BagIt
+metadata format; most of the examples here use various metadata
+schemas from other repositories. In the future I can imagine
+that tools could be implemented to convert the repository specific
+metadata (and manifest file list) to the BagIt specification.
 
 ## Existing datasets and repositories
 

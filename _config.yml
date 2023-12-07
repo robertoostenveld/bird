@@ -1,7 +1,7 @@
 
 title: BagIt Research Data (BIRD)
 email: r.oostenveld@gmail.com
-description: "Using FAIR metadata to share research data"
+description: "Using FAIR metadata to share the actual research data"
 baseurl: "bird"
 url: "https://robertoostenveld.github.io"
 
