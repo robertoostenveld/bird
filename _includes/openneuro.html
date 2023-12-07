@@ -1,6 +1,6 @@
-<h1>Metadata for {{ page.dataset }}</h1>
+<h1>Metadata for {{ page.name | remove: '.md' }}</h1>
 
-{% assign datasetid = page.dataset | remove: '.' %}
+{% assign datasetid = page.name | remove: '.md' | remove: '.' | remove: ':' %}
 {% assign meta = site.data.openneuro[datasetid] %}
 
 {% assign authors = meta.author | join: "; " | default: "Unknown"  %}

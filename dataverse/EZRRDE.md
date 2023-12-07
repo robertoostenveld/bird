@@ -1,5 +1,4 @@
 ---
-dataset: EZRRDE
 ---
 
-{% include dataverse.html %}
+{% include landingpage.html %}

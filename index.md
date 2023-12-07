@@ -21,7 +21,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% if datasetid %}
 <li>
-{{ authors }} ({{ pubdate }}): <a href="radboud/{{ datasetid }}">{{ meta.Title }}</a> Version {{ meta.Version }}. {{ meta.Publisher }}. (dataset). {{ meta.PersistentURL }}
+{{ authors }} ({{ pubdate }}): <a href="radboud/{{ datasetid }}">{{ meta.Title }}</a>. Version {{ meta.Version }}. {{ meta.Publisher }}. (dataset). {{ meta.PersistentURL }}
 </li>
 {% endif %}
 
@@ -45,7 +45,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {% assign pubdate = meta.metadata.publication_date | split: "-" | first %}
 
 <li>
-{{ authors }} ({{ pubdate }}): <a href="zenodo/{{ datasetid }}">{{ meta['metadata']['title'] }}</a> Version {{ meta.versions.index }}. Zenodo. (dataset). {{ meta.links.doi }}
+{{ authors }} ({{ pubdate }}): <a href="zenodo/{{ datasetid }}">{{ meta['metadata']['title'] }}</a>. Version {{ meta.versions.index }}. Zenodo. (dataset). {{ meta.links.doi }}
 </li>
 
 {% endfor %}
@@ -83,6 +83,32 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <li>
 {{ authors }} ({{ meta.publicationYear }}): <a href="dataverse/{{ datasetid }}">{{ meta.titles.title }}</a>. DataverseNL. (dataset). https://doi.org/{{ doi }}
+</li>
+
+{% endfor %}
+</ul>
+
+## Yoda datasets
+
+<ul>
+{% for dataset in site.data.yoda %}
+{% assign datasetid = dataset[0] %}
+{% assign meta = dataset[1] %}
+
+{% assign authors = '' %}
+{% for creator in meta.Creator %}
+{% assign authors = authors | append: '; ' | append: creator.Name.Given_Name | append: ' ' | append: creator.Name.Family_Name %}
+{% endfor %}
+{% for contributor in meta.Contributor %}
+{% assign authors = authors | append: '; ' | append: contributor.Name.Given_Name | append: ' ' | append: contributor.Name.Family_Name %}
+{% endfor %}
+{% assign authors = authors | remove_first: "; " %}
+
+{% assign pubdate = meta.Collected.End_Date | split: '-' %}
+{% assign pubdate = pubdate[0] %}
+  
+<li>
+{{ authors }} ({{ pubdate }}): <a href="yoda/{{ datasetid }}">{{ meta.Title }}</a>. Version {{ meta.Version }}. University Utrecht. (dataset).
 </li>
 
 {% endfor %}

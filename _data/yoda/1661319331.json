@@ -1,0 +1,71 @@
+{
+    "Discipline": [
+        "Social Sciences - Sociology (5.4)"
+    ], 
+    "Tag": [
+        "NETWORK FORMATION GAME", 
+        "EXPERIMENTAL SOCIOLOGY"
+    ], 
+    "Description": "The dataset 'Individual Choices in Dynamic Networks' contains the outcome of an experiment on network formation, studying how social preferences play a role in networking relations actors make.\n\nIn total we ran 16 experimental sessions, each of them having between 9 and 15 subjects. Subjects were contacted using the Online Recruitment System for Economic Experiments (Greiner B (2004) The online recruitment system ORSEE 2.0 - A guide for the organization of experiments in economics. University of Cologne, Working Paper Series in Economics 10.)\nA total of 227 subjects subscribed for one of the 16 sessions, of which 205 subjects participated. We allowed at most 16 registrations for each session and every registered subject who showed up in time participated.\nMost subjects were students at Utrecht University from a wide range of disciplines, although non-student subjects also participated. \n\nUnits of analysis are: \n-\tGroups of subjects\n-\tSubject Decisions\n\nSubjects were between 17 and 60 (mean age being 21.6), 68.3% female, and 78.5% Dutch.\n\nThe experiment was programmed using z-Tree (Fischbacher 2007).\n\nFor detailed information on the set-up of the experiment, the analysis and discussion, see the article 'VanDolderBuskens2014.pdf' in de folder Publication.\n\nThe set contains: \n\n1) Experimental instructions in the folder titled \"Instructions\"\n\tThis folder contains the instructions in both Dutch and English and for the four\n\torderings that we employed in the experiment, making (2x4=) 8 sets of instructions\n\toverall.\n\n2) Ztree treatment files in the folder titled \"Treatments\"\n\tThis folder contains the ZTree files needed to run the experiment. Note that here,\n\tas with the instructions, there are four orderings leading to four sets of treatment\n\tfiles. The program itself is bilingual, so there is no need to have separate files\n\tfor the Dutch or English version.\n\n3) Dataset.dta contains the data used in the paper.\n\tWe did not include a codebook, but rather described each variable in the variable \n\tlabel in the Stata data file. The dataset contains many variables that are not\n\tdirectly necessary for the analyses, but might be useful for other aims.\n\n4) Analyses.do is the Stata dofile to generate the results presented in the paper. \n\tWe have added annotations to help the reader understand what happens at each step.\n\nThe set contains original raw quantitative data.\nThe experiment has been conducted with X subjects.", 
+    "Language": "en - English", 
+    "Title": "Individual Choices in Dynamic Networks", 
+    "Data_Classification": "Basic", 
+    "Creator": [
+        {
+            "Affiliation": [
+                "Utrecht University"
+            ], 
+            "Name": {
+                "Family_Name": "Dolder", 
+                "Given_Name": "Dennie van"
+            }, 
+            "Person_Identifier": [
+                {
+                    "Name_Identifier": "0000-0002-2498-8311", 
+                    "Name_Identifier_Scheme": "ORCID"
+                }, 
+                {
+                    "Name_Identifier": "35094652600", 
+                    "Name_Identifier_Scheme": "Author identifier (Scopus)"
+                }
+            ]
+        }, 
+        {
+            "Affiliation": [
+                "Utrecht University"
+            ], 
+            "Name": {
+                "Family_Name": "Buskens", 
+                "Given_Name": "Vincent"
+            }, 
+            "Person_Identifier": [
+                {
+                    "Name_Identifier": "6602779250", 
+                    "Name_Identifier_Scheme": "Author identifier (Scopus)"
+                }, 
+                {
+                    "Name_Identifier": "0000-0002-4483-7238", 
+                    "Name_Identifier_Scheme": "ORCID"
+                }, 
+                {
+                    "Name_Identifier": "B-3134-2012", 
+                    "Name_Identifier_Scheme": "ResearcherID (Web of Science)"
+                }
+            ]
+        }
+    ], 
+    "links": [
+        {
+            "rel": "describedby", 
+            "href": "https://yoda.uu.nl/schemas/default-2/metadata.json"
+        }
+    ], 
+    "License": "Creative Commons Attribution-ShareAlike 4.0 International Public License", 
+    "Retention_Period": 10, 
+    "Version": "1.0", 
+    "Collected": {
+        "Start_Date": "2007-11-12", 
+        "End_Date": "2007-12-03"
+    }, 
+    "Data_Access_Restriction": "Open - freely retrievable"
+}

@@ -1,0 +1,69 @@
+<h1>Metadata for {{ page.name | remove: '.md' }}</h1>
+
+{% assign datasetid = page.name | remove: '.md' | remove: '.' | remove: ':' %}
+{% assign meta = site.data.yoda[datasetid] %}
+
+{% assign authors = '' %}
+{% for creator in meta.Creator %}
+{% assign authors = authors | append: '; ' | append: creator.Name.Given_Name | append: ' ' | append: creator.Name.Family_Name %}
+{% endfor %}
+{% for contributor in meta.Contributor %}
+{% assign authors = authors | append: '; ' | append: contributor.Name.Given_Name | append: ' ' | append: contributor.Name.Family_Name %}
+{% endfor %}
+{% assign authors = authors | remove_first: "; " %}
+
+{% assign pubdate = meta.Collected.End_Date | split: '-' %}
+{% assign pubdate = pubdate[0] %}
+  
+<table>
+  <tr>
+    <td>Title</td>
+    <td>{{ meta.Title }}</td>
+  </tr>
+
+  <tr>
+    <td>Authors</td>
+    <td>{{ authors }}</td>
+  </tr>
+
+  <tr>
+    <td>Description</td>
+    <td>{{ meta.Description }}</td>
+  </tr>
+
+  <tr>
+    <td>Discipline</td>
+    <td>{{ meta.Discipline | join: "; " }}</td>
+  </tr>
+
+  <tr>
+    <td>Tags</td>
+    <td>{{ meta.Tag | join: "; " }}</td>
+  </tr>
+
+  <tr>
+    <td>Version</td>
+    <td>{{ meta.Version }}</td>
+  </tr>
+
+  <tr>
+    <td>PublicationDate</td>
+    <td>{{ pubdate }}</td>
+  </tr>
+
+  <tr>
+    <td>Publisher</td>
+    <td>Utrecht University</td>
+  </tr>
+
+  <tr>
+    <td>Access</td>
+    <td>{{ meta.Data_Access_Restriction }}</td>
+  </tr>
+
+  <tr>
+    <td>PersistentIdentifier</td>
+    <td>Unspecified</td>
+  </tr>
+
+</table>

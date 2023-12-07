@@ -23,10 +23,10 @@ The project demonstrates a research data repository by reusing
 some public datasets from the following research data repositories:
 
 - <https://data.ru.nl>
-- <https://4tu.ru.nl>
-- <https://dataverse.nl>
-- <https://openneuro.org>
 - <https://zenodo.org>
+- <https://openneuro.org>
+- <https://dataverse.nl>
+- <https://4tu.ru.nl>
 
 ## Metadata
 

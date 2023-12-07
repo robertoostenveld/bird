@@ -1,0 +1,22 @@
+
+{% assign schema=page.dir | remove: '/' %}
+
+{% if schema == "radboud" %}
+{% include radboud.html %}
+
+{% elsif schema == "zenodo" %}
+{% include zenodo.html %}
+
+{% elsif schema == "openneuro"	%}
+{% include openneuro.html %}
+
+{% elsif schema == "dataverse" %}
+{% include dataverse.html %}
+
+{% elsif schema == "yoda" %}
+{% include yoda.html %}
+
+{% elsif schema == "4tu" %}
+{% include 4tu.html %}
+
+{% endif %}

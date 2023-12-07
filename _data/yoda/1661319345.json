@@ -1,0 +1,98 @@
+{
+    "Discipline": [
+        "Social Sciences - Sociology (5.4)", 
+        "Social Sciences - Economics and business (5.2)"
+    ], 
+    "Tag": [
+        "embeddedness", 
+        "social networks", 
+        "trust", 
+        "vignette experiment", 
+        "factorial survey", 
+        "learning", 
+        "control"
+    ], 
+    "License": "Creative Commons Attribution-ShareAlike 4.0 International Public License", 
+    "Description": "This vignette experiment was designed to study the effects of temporal embeddedness and network embeddedness in trust situations. The experiment uses a setting in which a buyer wants to buy a used car from a car dealer. We distinguish between effects on trust of the past relation and the effects of the expected future relation between the buyer and the dealer. A buyer can learn about the trustworthiness of the dealer from past transactions of the dealer. Moreover, the buyer can control the dealer if the buyer and the dealer expect more transactions in the future, because the buyer may sanction the dealer if the dealer would act untrustworthy in the present transaction, for example, by refraining from future transactions. Temporal embeddedness facilitates learning and control through the bilateral relation of the buyer and the dealer, while network embeddedness facilitates learning and control through third parties. In the experiment, subjects are asked to compare different settings for buying a used car, while the relation between the buyer and dealer is varied in these settings. \n\nThree sessions of data collection were held. In total 125 subjects participated in the different sessions of the experiment, providing answers to 1249 pairs of vignettes. \n\nDifferent publications in which (parts of) the analyses are reported;\no\tBuskens, Vincent and Jeroen Weesie (2000). An Experiment on the Effects of Embeddedness in Trust Situations: Buying a Used Car. Rationality and Society 12, 227-253. - https://doi.org/10.1177/104346300012002004\no\tBuskens, Vincent and Werner Raub (2002). Embedded Trust: Control and Learning. Advances in Group Processes 19, 167-202.\no\tBuskens, Vincent (2002). Social Networks and Trust. Boston/Dordrecht/London: Kluwer Academic Publishers [revised version of dissertation].", 
+    "Language": "en - English", 
+    "Title": "An Experiment on the Effects of Embeddedness in Trust Situations", 
+    "Data_Classification": "Basic", 
+    "Creator": [
+        {
+            "Affiliation": [
+                "Utrecht University"
+            ], 
+            "Name": {
+                "Family_Name": "Buskens", 
+                "Given_Name": "Vincent"
+            }, 
+            "Person_Identifier": [
+                {
+                    "Name_Identifier": "0000-0002-4483-7238", 
+                    "Name_Identifier_Scheme": "ORCID"
+                }, 
+                {
+                    "Name_Identifier": "6602779250", 
+                    "Name_Identifier_Scheme": "Author identifier (Scopus)"
+                }, 
+                {
+                    "Name_Identifier": "B-3134-2012", 
+                    "Name_Identifier_Scheme": "ResearcherID (Web of Science)"
+                }, 
+                {
+                    "Name_Identifier": "0000 0001 1569 9289", 
+                    "Name_Identifier_Scheme": "ISNI"
+                }, 
+                {
+                    "Name_Identifier": "181299313", 
+                    "Name_Identifier_Scheme": "DAI"
+                }
+            ]
+        }
+    ], 
+    "links": [
+        {
+            "rel": "describedby", 
+            "href": "https://yoda.uu.nl/schemas/default-2/metadata.json"
+        }
+    ], 
+    "Contributor": [
+        {
+            "Affiliation": [
+                "Utrecht University"
+            ], 
+            "Person_Identifier": [
+                {
+                    "Name_Identifier": "6506686321", 
+                    "Name_Identifier_Scheme": "Author identifier (Scopus)"
+                }, 
+                {
+                    "Name_Identifier": "F-5467-2013", 
+                    "Name_Identifier_Scheme": "ResearcherID (Web of Science)"
+                }, 
+                {
+                    "Name_Identifier": "0000 0000 4142 6084", 
+                    "Name_Identifier_Scheme": "ISNI"
+                }
+            ], 
+            "Name": {
+                "Family_Name": "Weesie", 
+                "Given_Name": "Jeroen"
+            }, 
+            "Contributor_Type": "RightsHolder"
+        }
+    ], 
+    "Retention_Period": 10, 
+    "Version": "1.0", 
+    "Collected": {
+        "Start_Date": "1997-03-01", 
+        "End_Date": "1997-10-31"
+    }, 
+    "Data_Access_Restriction": "Open - freely retrievable", 
+    "Funding_Reference": [
+        {
+            "Award_Number": "PGS 50-370 and S 96-168", 
+            "Funder_Name": "The Netherlands Organization for Scientific Research (NWO)"
+        }
+    ]
+}

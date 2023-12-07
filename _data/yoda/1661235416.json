@@ -1,0 +1,367 @@
+{
+    "links": [
+        {
+            "rel": "describedby", 
+            "href": "https://yoda.uu.nl/schemas/default-2/metadata.json"
+        }
+    ], 
+    "Discipline": [
+        "Natural Sciences - Physical sciences (1.3)", 
+        "Natural Sciences - Chemical sciences (1.4)", 
+        "Natural Sciences - Earth and related environmental sciences (1.5)"
+    ], 
+    "Language": "en - English", 
+    "Collected": {
+        "End_Date": "2021-01-03", 
+        "Start_Date": "2020-01-03"
+    }, 
+    "Covered_Geolocation_Place": [
+        "The Netherlands, United Kingdom, Poland, Germany, France, Sweden, Romania, Turkey"
+    ], 
+    "Covered_Period": {
+        "Start_Date": "2017-01-03", 
+        "End_Date": "2021-01-03"
+    }, 
+    "Tag": [
+        "stable isotopes", 
+        "methane", 
+        "isotope ratio mass spectromentry", 
+        "keeling plot", 
+        "greenhouse gas", 
+        "atmospheric chemistry"
+    ], 
+    "Related_Datapackage": [
+        {
+            "Persistent_Identifier": {}
+        }
+    ], 
+    "Retention_Period": 10, 
+    "Data_Type": "Dataset", 
+    "Funding_Reference": [
+        {
+            "Funder_Name": "European commission horizon 2020 MSCA", 
+            "Award_Number": "722479"
+        }
+    ], 
+    "Creator": [
+        {
+            "Name": {
+                "Given_Name": "Malika", 
+                "Family_Name": "Menoud"
+            }, 
+            "Affiliation": [
+                "Utrecht University"
+            ], 
+            "Person_Identifier": [
+                {
+                    "Name_Identifier_Scheme": "ORCID", 
+                    "Name_Identifier": "0000-0001-7061-2684"
+                }
+            ]
+        }
+    ], 
+    "Contributor": [
+        {
+            "Name": {
+                "Given_Name": "Thomas", 
+                "Family_Name": "Röckmann"
+            }, 
+            "Affiliation": [
+                "Utrecht University"
+            ], 
+            "Person_Identifier": [
+                {
+                    "Name_Identifier_Scheme": "ORCID", 
+                    "Name_Identifier": "0000-0001-7061-2684"
+                }
+            ], 
+            "Contributor_Type": "DataCollector"
+        }, 
+        {
+            "Name": {
+                "Given_Name": "Carina", 
+                "Family_Name": "van der Veen"
+            }, 
+            "Affiliation": [
+                "Utrecht University"
+            ], 
+            "Person_Identifier": [
+                {
+                    "Name_Identifier_Scheme": "ORCID", 
+                    "Name_Identifier": "0000-0001-6827-9616"
+                }
+            ], 
+            "Contributor_Type": "DataCollector"
+        }, 
+        {
+            "Name": {
+                "Given_Name": "Julianne", 
+                "Family_Name": "Fernandez"
+            }, 
+            "Affiliation": [
+                "Royal Holloway, University of London"
+            ], 
+            "Person_Identifier": [
+                {
+                    "Name_Identifier": "0000-0001-5137-6620", 
+                    "Name_Identifier_Scheme": "ORCID"
+                }
+            ], 
+            "Contributor_Type": "DataCollector"
+        }, 
+        {
+            "Name": {
+                "Given_Name": "Semra", 
+                "Family_Name": "Bakkaloglu"
+            }, 
+            "Affiliation": [
+                "Royal Holloway, University of London", 
+                "Imperial college London"
+            ], 
+            "Person_Identifier": [
+                {
+                    "Name_Identifier_Scheme": "ORCID", 
+                    "Name_Identifier": "0000-0002-0476-1929"
+                }
+            ], 
+            "Contributor_Type": "DataCollector"
+        }, 
+        {
+            "Name": {
+                "Given_Name": "David", 
+                "Family_Name": "Lowry"
+            }, 
+            "Affiliation": [
+                "Royal Holloway, University of London"
+            ], 
+            "Person_Identifier": [
+                {
+                    "Name_Identifier_Scheme": "ORCID", 
+                    "Name_Identifier": "0000-0002-8535-0346"
+                }
+            ], 
+            "Contributor_Type": "DataCollector"
+        }, 
+        {
+            "Name": {
+                "Given_Name": "James", 
+                "Family_Name": "France"
+            }, 
+            "Affiliation": [
+                "Royal Holloway, University of London"
+            ], 
+            "Person_Identifier": [
+                {
+                    "Name_Identifier": "0000-0002-8785-1240", 
+                    "Name_Identifier_Scheme": "ORCID"
+                }
+            ], 
+            "Contributor_Type": "DataCollector"
+        }, 
+        {
+            "Name": {
+                "Given_Name": "Rebecca", 
+                "Family_Name": "Fisher"
+            }, 
+            "Affiliation": [
+                "Royal Holloway, University of London"
+            ], 
+            "Person_Identifier": [
+                {
+                    "Name_Identifier": "0000-0002-9262-5467", 
+                    "Name_Identifier_Scheme": "ORCID"
+                }
+            ], 
+            "Contributor_Type": "DataCollector"
+        }, 
+        {
+            "Name": {
+                "Given_Name": "Hossein", 
+                "Family_Name": "Maazallahi"
+            }, 
+            "Affiliation": [
+                "Utrecht University"
+            ], 
+            "Person_Identifier": [
+                {
+                    "Name_Identifier": "0000-0002-7400-1001", 
+                    "Name_Identifier_Scheme": "ORCID"
+                }
+            ], 
+            "Contributor_Type": "DataCollector"
+        }, 
+        {
+            "Name": {
+                "Given_Name": "Piotr", 
+                "Family_Name": "Korbeń"
+            }, 
+            "Affiliation": [
+                "Heidelberg University"
+            ], 
+            "Person_Identifier": [
+                {}
+            ], 
+            "Contributor_Type": "DataCollector"
+        }, 
+        {
+            "Name": {
+                "Given_Name": "Martina", 
+                "Family_Name": "Schmidt"
+            }, 
+            "Affiliation": [
+                "Heidelberg University"
+            ], 
+            "Person_Identifier": [
+                {}
+            ], 
+            "Contributor_Type": "DataCollector"
+        }, 
+        {
+            "Name": {
+                "Given_Name": "Mila", 
+                "Family_Name": "Stanisavljević"
+            }, 
+            "Affiliation": [
+                "AGH University of Science and Technology"
+            ], 
+            "Person_Identifier": [
+                {
+                    "Name_Identifier": "0000-0002-6257-6617", 
+                    "Name_Identifier_Scheme": "ORCID"
+                }
+            ], 
+            "Contributor_Type": "DataCollector"
+        }, 
+        {
+            "Name": {
+                "Given_Name": "Jaroslaw", 
+                "Family_Name": "Necki"
+            }, 
+            "Affiliation": [
+                "AGH University of Science and Technology"
+            ], 
+            "Person_Identifier": [
+                {
+                    "Name_Identifier": "0000-0002-0225-2581", 
+                    "Name_Identifier_Scheme": "ORCID"
+                }
+            ], 
+            "Contributor_Type": "DataCollector"
+        }, 
+        {
+            "Name": {
+                "Family_Name": "Łakomiec", 
+                "Given_Name": "Patryk"
+            }, 
+            "Affiliation": [
+                "Lund University"
+            ], 
+            "Person_Identifier": [
+                {
+                    "Name_Identifier_Scheme": "ORCID", 
+                    "Name_Identifier": "0000-0002-8026-2515"
+                }
+            ], 
+            "Contributor_Type": "DataCollector"
+        }, 
+        {
+            "Name": {
+                "Given_Name": "Janne", 
+                "Family_Name": "Rinne"
+            }, 
+            "Affiliation": [
+                "Lund University"
+            ], 
+            "Person_Identifier": [
+                {
+                    "Name_Identifier": "0000-0003-1168-7138", 
+                    "Name_Identifier_Scheme": "ORCID"
+                }
+            ], 
+            "Contributor_Type": "DataCollector"
+        }, 
+        {
+            "Name": {
+                "Given_Name": "Sara", 
+                "Family_Name": "Defratyka"
+            }, 
+            "Affiliation": [
+                "Laboratoire des Sciences du Climat et de l'Environnement"
+            ], 
+            "Person_Identifier": [
+                {
+                    "Name_Identifier": "0000-0002-9488-4518", 
+                    "Name_Identifier_Scheme": "ORCID"
+                }
+            ], 
+            "Contributor_Type": "DataCollector"
+        }, 
+        {
+            "Name": {
+                "Given_Name": "Camille", 
+                "Family_Name": "Yver-Kwok"
+            }, 
+            "Affiliation": [
+                "Laboratoire des Sciences du Climat et de l'Environnement"
+            ], 
+            "Person_Identifier": [
+                {
+                    "Name_Identifier": "0000-0002-2181-2863", 
+                    "Name_Identifier_Scheme": "ORCID"
+                }
+            ], 
+            "Contributor_Type": "DataCollector"
+        }, 
+        {
+            "Name": {
+                "Given_Name": "Katarina", 
+                "Family_Name": "Vinkovic"
+            }, 
+            "Affiliation": [
+                "University of Groningen"
+            ], 
+            "Person_Identifier": [
+                {
+                    "Name_Identifier": "0000-0002-0445-5462", 
+                    "Name_Identifier_Scheme": "ORCID"
+                }
+            ], 
+            "Contributor_Type": "DataCollector"
+        }, 
+        {
+            "Name": {
+                "Given_Name": "Truls", 
+                "Family_Name": "Andersen"
+            }, 
+            "Affiliation": [
+                "University of Groningen"
+            ], 
+            "Person_Identifier": [
+                {}
+            ], 
+            "Contributor_Type": "DataCollector"
+        }, 
+        {
+            "Name": {
+                "Given_Name": "Huilin", 
+                "Family_Name": "Chen"
+            }, 
+            "Affiliation": [
+                "University of Groningen"
+            ], 
+            "Person_Identifier": [
+                {
+                    "Name_Identifier_Scheme": "ORCID", 
+                    "Name_Identifier": "0000-0002-1573-6673"
+                }
+            ], 
+            "Contributor_Type": "DataCollector"
+        }
+    ], 
+    "Data_Access_Restriction": "Open - freely retrievable", 
+    "Title": "The European methane isotope database coupled with a global inventory of fossil and non-fossil δ13C- and δ2H-CH4 source signature measurements", 
+    "Description": "Stable isotopic composition (13C and 2H) of methane (CH4) emission sources.\n\nEuropean Methane Isotope Database, based on measurements carried out during the MEMO2 project (https://h2020-memo2.eu)\n\nMethane Isotopic signatures from previous literature, reported by Sherwood et al. (2017, 2021), and in other literature sources.\n\nSherwood, O.A., Schwietzke, S., Arling, V.A., Etiope, G., 2017. Global Inventory of Gas Geochemistry Data from Fossil Fuel, Microbial and Burning Sources, version 2017. Earth Syst. Sci. Data 9, 639–656. https://doi.org/10.5194/essd-9-639-2017\n\nSherwood, O.A., Schwietzke, S., Lan, X., 2021. Global δ13C-CH4 source signature inventory 2020. Available at: https://doi.org/10.15138/qn55-e011\n", 
+    "Version": "v1.0.0", 
+    "Data_Classification": "Public", 
+    "License": "Creative Commons Attribution 4.0 International Public License"
+}
